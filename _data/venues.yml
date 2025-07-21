@@ -7,3 +7,16 @@
 
 "Vision":
   color: "#009f36"
+
+"Evolution":
+  color: "#40c2cb"
+"PopGen":
+  color: "#dfad32"
+"Disease":
+  color: "#f5814e"
+"Method":
+  color: "#c46bf0"
+"Epigenomics":
+  color: "#5fab2e"
+
+

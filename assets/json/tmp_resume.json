@@ -1,11 +1,12 @@
 {
   "basics": {
-    "name": "Hyeonsoo Jeong",
+    "name": "Albert Einstein",
     "label": "Scientist",
     "image": "",
-    "email": "hrrsjeong [at] gmail [dot] com",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
     "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
