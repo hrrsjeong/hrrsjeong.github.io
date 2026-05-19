@@ -1,8 +1,9 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Computational Scientist at <a href="https://www.altoslabs.com/">Altos Labs</a>
+profile_name: Hyeonsoo "Harris" Jeong
+subtitle: Incoming Assistant Professor<br>Department of Life Sciences<br>Gwangju Institute of Science and Technology (GIST), South Korea
 
 profile:
   align: right
@@ -22,15 +23,12 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a geneticist and computational scientist studying how gene regulation affects disease risk. My research focuses on an interesting aspect of genetics: gene expression can be altered without any changes to the actual DNA sequence itself. This can happen through epigenetic modifications, which are like molecular switches that turn genes on or off. I'm particularly interested in DNA methylation, one of the most important of these modifications, and how it affects genome function.
+I am an incoming Assistant Professor in the Department of Life Sciences at the Gwangju Institute of Science and Technology (GIST), South Korea. I am a geneticist and computational genome scientist interested in how genomic and epigenomic variation shape human biology, aging, and disease susceptibility. My work integrates comparative genomics, epigenomics, long-read sequencing, and computational biology to study genome structure and regulation across species, populations, cell types, and the lifespan.
 
-What makes this work interesting is that these epigenetic changes can help explain disease susceptability within human populations (e.g., why some people develop certain diseases while others don't, even when they have similar genetic backgrounds?). During my Ph.D. with [Soojin Yi](https://www.eemb.ucsb.edu/people/faculty/yi) at UCSB, I studied epigenomic changes between human and non-human primates. This comparative approach reveals the molecular changes that occurred during human evolution.
+During my Ph.D. with [Soojin V. Yi](https://www.eemb.ucsb.edu/people/faculty/yi), I studied the evolution of DNA methylation in human and non-human primate brains. Using cell type-resolved methylomes from neurons and oligodendrocytes, I investigated how human-specific epigenomic changes contribute to gene regulation, brain function, and disease-associated genomic regions. This work shaped my broader interest in using comparative epigenomics to understand the molecular features that distinguish humans from other primates.
 
-Building on this foundation, my postdoctoral work in [Evan Eichler's lab](https://eichler.gs.washington.edu/people/evan-eichler/) at the University of Washington took a deeper dive into human brain evolution. I investigated how these human-specific epigenomic regions have contributed to the unique aspects of neurodevelopment that distinguish our species. This involved generating complete telomere-to-telomere genome assemblies from both human and great ape induced pluripotent stem cells, then integrating multi-omics data from various differentiated cell types to understand how these genetic differences play out in actual brain development.
+As a postdoctoral researcher in [Evan Eichler's lab](https://eichler.gs.washington.edu/people/evan-eichler/) at the University of Washington, I expanded my research into long-read genome sequencing, telomere-to-telomere genome assemblies, and complex structural variation. I studied genomic regions that have historically been difficult to assemble and analyze, including segmental duplications, repetitive sequences, and large structural variants. These regions are among the most dynamic parts of the genome and provide an important window into human diversity, primate evolution, and disease-relevant genome architecture.
 
-Since joining Altos, I've been working to bridge the gap between evolutionary biology and human health. By understanding how our evolutionary past shaped our genomes, we can better predict and potentially address disease susceptibility patterns that affect us during human evolution. 
+At Altos Labs, I extended my research into aging biology by using DNA methylation and single-cell multi-omic approaches to study cell-type-specific epigenetic aging, tissue injury, and disease-associated repair states. This experience deepened my interest in connecting evolutionary and regulatory genome science to age-associated disease mechanisms.
 
-
-  
-
-        
+At GIST, my laboratory will bring these directions together to study genome structure and regulation through comparative, epigenomic, long-read, and computational approaches. We aim to understand how genomic and epigenomic variation emerges across species and populations, how it changes across the lifespan, and how these changes contribute to brain development, aging, and disease vulnerability.
