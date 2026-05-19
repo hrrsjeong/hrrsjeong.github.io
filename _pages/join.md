@@ -165,7 +165,7 @@ _styles: |
   <p>
     Applicants should send a CV, a brief statement of research interests, and the names and contact information of three references.
   </p>
-  <a class="join-cta" href="mailto:hrrsjeong@gmail.com?subject=Postdoc%20application%20-%20Jeong%20Lab">
+  <a class="join-cta" href="mailto:jeonglab.gist@gmail.com?subject=Postdoc%20application%20-%20Jeong%20Lab">
     <i class="fa-solid fa-envelope"></i> Email about this position
   </a>
 </div>
@@ -191,7 +191,7 @@ _styles: |
   <p>
     Prospective students should email me with a description of their research interests, relevant coursework or research experience, and an academic transcript.
   </p>
-  <a class="join-cta" href="mailto:hrrsjeong@gmail.com?subject=Prospective%20graduate%20student%20-%20Jeong%20Lab">
+  <a class="join-cta" href="mailto:jeonglab.gist@gmail.com?subject=Prospective%20graduate%20student%20-%20Jeong%20Lab">
     <i class="fa-solid fa-envelope"></i> Email about this position
   </a>
 </div>
@@ -217,7 +217,7 @@ _styles: |
   <p>
     Experience with long-read sequencing is preferred but not required. Applicants should send a CV or resume and a short description of relevant computational projects.
   </p>
-  <a class="join-cta" href="mailto:hrrsjeong@gmail.com?subject=Bioinformatics%20specialist%20-%20Jeong%20Lab">
+  <a class="join-cta" href="mailto:jeonglab.gist@gmail.com?subject=Bioinformatics%20specialist%20-%20Jeong%20Lab">
     <i class="fa-solid fa-envelope"></i> Email about this position
   </a>
 </div>
@@ -243,7 +243,7 @@ _styles: |
   <p>
     Interested students should email me with a short introduction, research interests, relevant coursework, and any programming or research experience.
   </p>
-  <a class="join-cta" href="mailto:hrrsjeong@gmail.com?subject=Undergraduate%20research%20-%20Jeong%20Lab">
+  <a class="join-cta" href="mailto:jeonglab.gist@gmail.com?subject=Undergraduate%20research%20-%20Jeong%20Lab">
     <i class="fa-solid fa-envelope"></i> Email about this position
   </a>
 </div>
