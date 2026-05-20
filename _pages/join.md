@@ -113,6 +113,29 @@ _styles: |
     margin-top: 0.5rem;
     font-weight: 600;
   }
+  .training-panel {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: start;
+    border: 1px solid rgba(31, 122, 140, 0.28);
+    border-left: 5px solid #1f7a8c;
+    border-radius: 0.5rem;
+    padding: 1.1rem 1.25rem;
+    margin: 0 0 2rem;
+    background: rgba(31, 122, 140, 0.06);
+  }
+  .training-panel i {
+    color: #1f7a8c;
+    font-size: 1.45rem;
+    margin-top: 0.1rem;
+  }
+  .training-panel h2 {
+    margin: 0 0 0.5rem;
+  }
+  .training-panel p {
+    margin-bottom: 0;
+  }
 ---
 
 <div class="join-hero">
@@ -142,6 +165,16 @@ _styles: |
     <div class="tagline">Learn computational biology through hands-on research and data analysis.</div>
     <div class="availability-pill"><i class="fa-solid fa-seedling"></i>Rolling basis</div>
   </a>
+</div>
+
+<div class="training-panel">
+  <i class="fa-solid fa-route"></i>
+  <div>
+    <h2>Training and Career Development</h2>
+    <p>
+      The Jeong Lab aims to train scientists who can move confidently across academic, industry, and interdisciplinary research environments. Trainees are encouraged to discuss their goals early and shape their training accordingly. Projects in the lab are designed to build rigorous scientific thinking, strong computational skills, reproducible analysis practices, and clear communication.
+    </p>
+  </div>
 </div>
 
 <div id="postdocs" class="join-section">
