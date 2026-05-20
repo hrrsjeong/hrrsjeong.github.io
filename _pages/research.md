@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-Our lab studies how genome structure and epigenetic regulation evolve, and how that variation contributes to differences in development, aging, and disease risk. We combine comparative genomics, long-read sequencing and telomere-to-telomere assemblies, DNA methylation profiling, and single-cell and multi-omic approaches to identify the genetic and evolutionary origins of regulatory variation and its effects on gene expression and genome function. By comparing the genomes of humans and other primates, we ask what makes the human genome distinct and how human-derived genetic and regulatory changes contribute to human traits and disease susceptibility.
+Our lab studies how genome structure and epigenetic regulation evolve, and how that variation contributes to differences in species, cell types, aging, and disease risk. We combine comparative genomics, long-read sequencing and telomere-to-telomere assemblies, DNA methylation profiling, and single-cell and multi-omic approaches to identify the genetic and evolutionary origins of regulatory variation and its effects on gene expression and genome function. By comparing humans and other non-human primates, we ask what makes the human genome distinct and how human-derived genetic and regulatory changes contribute to human traits and disease susceptibility.
 
 <div class="research-topic my-5">
   <h2>Comparative Neurogenomics</h2>
@@ -21,7 +21,7 @@ Our lab studies how genome structure and epigenetic regulation evolve, and how t
       </figure>
     </div>
     <div class="col-md-7">
-      <p>We study how DNA methylation changed along the human lineage, with a focus on the brain and neurodevelopment. By comparing humans with non-human primates, we identify human-derived methylation patterns that differ from conserved primate states. Our work examines these changes in specific brain cell types, including neurons and glial cells, and asks how they are associated with promoters, enhancers, gene bodies, transcriptional programs, and neurodevelopmental pathways. We also develop computational methods for comparative neurogenomics and epigenomics, enabling us to distinguish lineage-specific methylation changes from cell type composition, technical variation, and species-specific genome annotation differences. Through this approach, we aim to understand how epigenomic changes contributed to molecular features of the human brain.</p>
+      <p>We study how DNA methylation changed along the human lineage, with a focus on the brain and neurodevelopment. By comparing humans with non-human primates, we identify methylation patterns that evolved during human evolution. Our work examines these changes in cell-type-level, including neurons and glial cells, and asks how they are associated with transcriptional programs and neurodevelopmental pathways. We also develop computational methods for comparative neurogenomics and epigenomics, enabling us to distinguish lineage-specific methylation changes from cell type composition, technical variation, and species-specific genome annotation differences.</p>
     </div>
   </div>
 </div>
@@ -38,7 +38,7 @@ Our lab studies how genome structure and epigenetic regulation evolve, and how t
       </figure>
     </div>
     <div class="col-md-7">
-      <p>Segmental duplications, copy number variable regions, and large structural variants are among the most dynamic parts of the genome. They often contain duplicated genes and regulatory elements that evolve rapidly, but they are difficult to analyze with short-read sequencing because highly similar DNA copies cannot be assigned to their original genomic locations with confidence. Our lab uses long-read sequencing, telomere-to-telomere genome assemblies, and donor-derived genome assemblies to separate paralogous copies, reconstruct structurally complex loci, and measure copy-specific epigenomic patterns. By integrating DNA methylation with multi-tissue epigenome data, we study how duplicated genes acquire distinct regulatory states during human evolution and how these changes influence neurodevelopmental gene regulation and tissue-specific genome function.</p>
+      <p>Segmental duplications, copy number variable regions, and large structural variants are among the most dynamic parts of the genome. They often contain duplicated genes and regulatory elements that evolve rapidly, but they are difficult to analyze because highly similar paralog copies cannot be assigned to their original genomic locations with short-read sequencing. Our lab uses long-read sequencing, telomere-to-telomere genome assemblies, and donor-derived genome assemblies to separate gene copies, reconstruct structurally complex loci, and measure paralog-specific epigenomic patterns. By integrating DNA methylation with multi-tissue epigenome data, we study how duplicated genes acquire distinct regulatory states during human evolution and how these changes influence neurodevelopmental gene regulation and tissue-specific genome function.</p>
     </div>
   </div>
 </div>
@@ -55,7 +55,7 @@ Our lab studies how genome structure and epigenetic regulation evolve, and how t
       </figure>
     </div>
     <div class="col-md-7">
-      <p>We study how DNA methylation changes during aging and how these changes differ across cell types, tissues, species, and disease states. Aging can alter cell type-specific methylation patterns, disrupt regulatory programs that maintain cellular identity, and shift cells toward injury-associated or disease-associated states. Our lab uses single-cell DNA methylation profiling, cross-species comparisons, transcriptomics, chromatin accessibility, and spatial or multi-omic data to map these age-associated changes in defined cell populations. By comparing aging trajectories across tissues and species, we aim to identify which epigenomic changes are conserved, which are human-specific, and how they contribute to vulnerability in the brain and other organs.</p>
+      <p>We study how DNA methylation changes during aging and how these changes differ across cell types, tissues, species, and disease states. Aging can alter cell type-specific methylation patterns, disrupt regulatory programs that maintain cell type identity, and shift cells toward injury-associated or disease-associated states. Our lab uses single-cell DNA methylation profiling, cross-species comparisons, transcriptomics, chromatin accessibility, and spatial genomics to map these age-associated changes in defined cell populations. By comparing aging trajectories across tissues and species, we aim to identify which epigenomic changes are conserved, which are human-specific, and how they contribute to vulnerability in the brain and other organs.</p>
     </div>
   </div>
 </div>
