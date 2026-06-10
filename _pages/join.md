@@ -7,37 +7,44 @@ description: Opportunities for postdocs, graduate students, bioinformatics speci
 nav: true
 nav_order: 4
 _styles: |
+  :root {
+    --join-accent: #2f6f73;
+    --join-soft: rgba(47, 111, 115, 0.07);
+    --join-shadow: rgba(0, 0, 0, 0.055);
+  }
   .join-hero {
-    border-left: 4px solid var(--global-theme-color);
-    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.35rem;
+    padding: 1.2rem 1.35rem;
     margin-bottom: 2rem;
-    background: var(--global-bg-color);
-    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.06);
+    background: var(--global-card-bg-color);
+    box-shadow: 0 0.2rem 0.8rem var(--join-shadow);
   }
   .join-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 1rem;
+    gap: 1.1rem;
     margin: 1.5rem 0 2rem;
   }
   .join-card {
+    position: relative;
     border: 1px solid var(--global-divider-color);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    border-radius: 0.35rem;
+    padding: 1.05rem;
+    background: var(--global-bg-color);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
     cursor: pointer;
-    min-height: 9rem;
+    min-height: 9.4rem;
   }
   .join-card:hover,
   .join-card:focus {
-    transform: translateY(-2px);
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
     border-color: var(--global-theme-color);
+    box-shadow: 0 0.35rem 1.1rem var(--join-shadow);
     text-decoration: none;
   }
   .join-card .role {
     font-weight: 700;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.45rem;
   }
   .join-card .tagline {
     color: var(--global-text-color-light);
@@ -47,35 +54,34 @@ _styles: |
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    border-radius: 0.45rem;
-    padding: 0.45rem 0.65rem;
-    margin-top: 0.85rem;
-    color: #ffffff;
-    background: linear-gradient(135deg, #1f7a8c, #2b9348);
-    box-shadow: 0 0.35rem 1rem rgba(31, 122, 140, 0.22);
-    font-weight: 700;
-    font-size: 0.9rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    padding: 0.35rem 0.5rem;
+    margin-top: 0.95rem;
+    color: var(--join-accent);
+    background: var(--join-soft);
+    font-weight: 600;
+    font-size: 0.88rem;
+  }
+  .availability-pill i {
+    color: var(--join-accent);
   }
   .availability-pill .count {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 0.35rem;
-    padding: 0.08rem 0.4rem;
     font-variant-numeric: tabular-nums;
   }
   .availability-box {
     display: flex;
     align-items: center;
     gap: 0.85rem;
-    border: 1px solid rgba(31, 122, 140, 0.35);
-    border-left: 5px solid #1f7a8c;
-    border-radius: 0.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.35rem;
     padding: 0.75rem 0.9rem;
     margin: 0.25rem 0 1rem;
-    background: rgba(31, 122, 140, 0.08);
+    background: var(--join-soft);
   }
   .availability-box i {
-    color: #1f7a8c;
-    font-size: 1.3rem;
+    color: var(--join-accent);
+    font-size: 1.15rem;
   }
   .availability-box .label {
     display: block;
@@ -99,10 +105,11 @@ _styles: |
   }
   .join-badge {
     display: inline-block;
-    border: 1px solid var(--global-theme-color);
-    color: var(--global-theme-color);
-    border-radius: 999px;
-    padding: 0.15rem 0.55rem;
+    border: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    border-radius: 0.25rem;
+    padding: 0.16rem 0.48rem;
+    background: var(--global-card-bg-color);
     font-size: 0.8rem;
     margin: 0 0.3rem 0.3rem 0;
   }
@@ -118,16 +125,16 @@ _styles: |
     grid-template-columns: auto 1fr;
     gap: 1rem;
     align-items: start;
-    border: 1px solid rgba(31, 122, 140, 0.28);
-    border-left: 5px solid #1f7a8c;
-    border-radius: 0.5rem;
-    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.35rem;
+    padding: 1.15rem 1.25rem;
     margin: 0 0 2rem;
-    background: rgba(31, 122, 140, 0.06);
+    background: var(--global-card-bg-color);
+    box-shadow: 0 0.2rem 0.8rem var(--join-shadow);
   }
   .training-panel i {
-    color: #1f7a8c;
-    font-size: 1.45rem;
+    color: var(--join-accent);
+    font-size: 1.25rem;
     margin-top: 0.1rem;
   }
   .training-panel h2 {
