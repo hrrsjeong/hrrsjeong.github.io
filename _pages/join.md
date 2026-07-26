@@ -155,12 +155,12 @@ _styles: |
   <a class="join-card" href="#postdocs">
     <div class="role">Postdocs</div>
     <div class="tagline">Lead independent projects in evolutionary genomics, epigenomics, and computational biology.</div>
-    <div class="availability-pill"><i class="fa-solid fa-user-plus"></i><span class="count">2</span> openings</div>
+    <div class="availability-pill"><i class="fa-solid fa-user-plus"></i><span class="count">1</span> opening</div>
   </a>
   <a class="join-card" href="#graduate-students">
     <div class="role">Graduate Students</div>
     <div class="tagline">Join through the Department of Life Sciences at GIST and develop a thesis project in genome science.</div>
-    <div class="availability-pill"><i class="fa-solid fa-user-graduate"></i><span class="count">2</span> M.S.-Ph.D. or Ph.D.</div>
+    <div class="availability-pill"><i class="fa-solid fa-user-graduate"></i><span class="count">3</span> M.S.-Ph.D. or Ph.D.</div>
   </a>
   <a class="join-card" href="#bioinformatics-specialist">
     <div class="role">Bioinformatics Specialist</div>
@@ -190,7 +190,7 @@ _styles: |
     <i class="fa-solid fa-user-plus"></i>
     <div>
       <span class="label">Available positions</span>
-      <span class="value">2 postdoctoral fellow positions</span>
+      <span class="value">1 postdoctoral fellow position</span>
     </div>
   </div>
   <p>
@@ -216,7 +216,7 @@ _styles: |
     <i class="fa-solid fa-user-graduate"></i>
     <div>
       <span class="label">Available positions</span>
-      <span class="value">2 M.S.-Ph.D. integrated or Ph.D. positions</span>
+      <span class="value">3 M.S.-Ph.D. integrated or Ph.D. positions</span>
     </div>
   </div>
   <p>

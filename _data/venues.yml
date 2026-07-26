@@ -18,5 +18,7 @@
   color: "#c46bf0"
 "Epigenomics":
   color: "#5fab2e"
-
+"Preprint":
+  url: https://www.biorxiv.org/
+  color: "#6f6aa8"
 
