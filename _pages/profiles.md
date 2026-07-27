@@ -6,21 +6,21 @@ nav: true
 nav_order: 1
 _styles: |
   .principal-section {
-    margin-bottom: clamp(2.8rem, 7vw, 4.8rem);
+    margin-bottom: clamp(2.3rem, 5.5vw, 3.8rem);
   }
   .principal-card {
     display: grid;
-    grid-template-columns: minmax(220px, 29%) 1fr;
-    gap: clamp(1.6rem, 4vw, 3.5rem);
+    grid-template-columns: minmax(195px, 25%) 1fr;
+    gap: clamp(1.4rem, 3.3vw, 2.8rem);
     align-items: center;
     border-top: 1px solid var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     color: var(--global-text-color);
-    padding: clamp(1.2rem, 3vw, 2rem) 0;
+    padding: clamp(1rem, 2.2vw, 1.45rem) 0;
   }
   .principal-card img {
     width: 100%;
-    aspect-ratio: 4 / 4.35;
+    aspect-ratio: 4 / 4.25;
     border-radius: 0.35rem;
     display: block;
     object-fit: cover;
@@ -83,10 +83,10 @@ _styles: |
     align-items: center;
     border-top: 1px solid var(--global-divider-color);
     display: grid;
-    grid-template-columns: 7.25rem 1fr;
+    grid-template-columns: 8.5rem 1fr;
     gap: 1.25rem;
-    min-height: 11.5rem;
-    padding: 1.35rem 0;
+    min-height: 13.5rem;
+    padding: 1.5rem 0;
   }
   .team-member:nth-last-child(-n + 2) {
     border-bottom: 1px solid var(--global-divider-color);
@@ -138,7 +138,7 @@ _styles: |
   }
   @media (max-width: 767px) {
     .principal-card {
-      grid-template-columns: minmax(130px, 36%) 1fr;
+      grid-template-columns: minmax(125px, 32%) 1fr;
       gap: 1.2rem;
       align-items: start;
     }
@@ -154,18 +154,23 @@ _styles: |
   }
   @media (max-width: 520px) {
     .principal-card {
-      grid-template-columns: 1fr;
+      align-items: center;
+      gap: 1.05rem;
+      grid-template-columns: minmax(120px, 37%) minmax(0, 1fr);
     }
     .principal-card img {
-      aspect-ratio: 4 / 3.2;
-      object-position: center 24%;
+      aspect-ratio: 4 / 5;
+      object-position: center 27%;
+    }
+    .principal-name {
+      font-size: 1.45rem;
     }
     .principal-link {
       margin-top: 0.85rem;
     }
     .team-member {
-      grid-template-columns: 6.5rem 1fr;
-      min-height: 10.5rem;
+      grid-template-columns: 7.5rem 1fr;
+      min-height: 12rem;
     }
   }
 ---
