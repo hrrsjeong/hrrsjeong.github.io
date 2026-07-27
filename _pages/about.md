@@ -18,19 +18,28 @@ _styles: |
   }
   .home-hero {
     position: relative;
+    isolation: isolate;
     aspect-ratio: 3 / 1;
     overflow: hidden;
     border: 1px solid var(--global-divider-color);
     border-radius: 0.28rem;
     background-color: #f4f2ed;
+    box-shadow: 0 0.55rem 1.8rem rgba(49, 45, 70, 0.08);
+  }
+  .home-hero::before {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
     background-image: url("/assets/img/home/jeong-lab-layered-primates-v8-featureless.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 0.55rem 1.8rem rgba(49, 45, 70, 0.08);
+    content: "";
+    transform: translateX(5%);
   }
   .home-hero::after {
     position: absolute;
+    z-index: 1;
     inset: 0;
     background: linear-gradient(
       to right,
@@ -43,7 +52,7 @@ _styles: |
   }
   .home-hero-copy {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 50%;
     left: clamp(1.4rem, 5vw, 4.25rem);
     color: #3f3a46;
@@ -52,9 +61,9 @@ _styles: |
   }
   .home-hero-title {
     margin: 0;
-    color: #34313a;
+    color: #18171b;
     font-size: clamp(1.15rem, 2.25vw, 2rem);
-    font-weight: 720;
+    font-weight: 760;
     letter-spacing: 0.025em;
     line-height: 1.08;
     text-transform: uppercase;
@@ -145,33 +154,61 @@ _styles: |
     display: flex;
     gap: 0.85rem;
   }
+  .featured-carousel-shell {
+    position: relative;
+  }
   .featured-carousel-controls {
-    display: flex;
-    gap: 0.35rem;
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+    z-index: 3;
   }
   .featured-carousel-button {
     align-items: center;
-    background: transparent;
-    border: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    border: 1px solid var(--home-accent);
     border-radius: 50%;
-    color: var(--global-text-color);
-    display: inline-flex;
-    font-size: 1rem;
-    height: 2rem;
+    box-shadow: 0 0.35rem 1.15rem rgba(49, 45, 70, 0.16);
+    color: var(--home-accent-dark);
+    display: flex;
+    font-size: 1.65rem;
+    height: 3.35rem;
     justify-content: center;
     line-height: 1;
     padding: 0;
-    transition: border-color 0.15s ease, color 0.15s ease;
-    width: 2rem;
+    pointer-events: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease,
+      box-shadow 0.15s ease,
+      color 0.15s ease,
+      opacity 0.15s ease,
+      transform 0.15s ease,
+      visibility 0.15s ease;
+    width: 3.35rem;
+  }
+  .featured-carousel-button[data-featured-previous] {
+    left: -1.45rem;
+  }
+  .featured-carousel-button[data-featured-next] {
+    right: -1.45rem;
   }
   .featured-carousel-button:hover,
   .featured-carousel-button:focus {
-    border-color: var(--home-accent);
-    color: var(--home-accent-dark);
+    background: var(--home-accent-dark);
+    border-color: var(--home-accent-dark);
+    box-shadow: 0 0.5rem 1.35rem rgba(49, 45, 70, 0.24);
+    color: #fff;
+    transform: translateY(-50%) scale(1.04);
   }
   .featured-carousel-button:disabled {
     cursor: default;
-    opacity: 0.3;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
   }
   .home-news-list {
     border-top: 1px solid var(--global-divider-color);
@@ -300,15 +337,19 @@ _styles: |
   @media (max-width: 620px) {
     .home-hero {
       aspect-ratio: 2 / 1;
-      background-position: 55% center;
+    }
+    .home-hero::before {
+      background-position: 50% center;
+      transform: none;
     }
     .home-hero-copy {
       left: 0.8rem;
       width: 43%;
     }
     .home-hero-title {
-      font-size: clamp(0.6rem, 2.9vw, 0.72rem);
-      letter-spacing: 0.012em;
+      font-size: clamp(0.72rem, 3.25vw, 0.84rem);
+      font-weight: 780;
+      letter-spacing: 0.008em;
       line-height: 1.12;
     }
     .home-section-header {
@@ -327,6 +368,17 @@ _styles: |
     }
     .featured-paper-grid {
       grid-auto-columns: 100%;
+    }
+    .featured-carousel-button {
+      font-size: 1.45rem;
+      height: 2.9rem;
+      width: 2.9rem;
+    }
+    .featured-carousel-button[data-featured-previous] {
+      left: 0.55rem;
+    }
+    .featured-carousel-button[data-featured-next] {
+      right: 0.55rem;
     }
   }
 ---
@@ -371,25 +423,12 @@ _styles: |
   <div class="home-section-header">
     <h2 id="featured-publications-title">Featured Publications</h2>
     <div class="featured-publication-actions">
-      <div class="featured-carousel-controls" aria-label="Featured publication navigation">
-        <button
-          class="featured-carousel-button"
-          type="button"
-          aria-label="Previous featured publications"
-          data-featured-previous
-        >←</button>
-        <button
-          class="featured-carousel-button"
-          type="button"
-          aria-label="Next featured publications"
-          data-featured-next
-        >→</button>
-      </div>
       <a class="home-section-link" href="{{ '/publications/' | relative_url }}">View all publications →</a>
     </div>
   </div>
 
-  <div class="featured-paper-grid" data-featured-carousel>
+  <div class="featured-carousel-shell">
+    <div class="featured-paper-grid" data-featured-carousel>
     <a class="featured-paper" href="https://doi.org/10.1038/s41588-024-02051-8">
       <div class="featured-paper-figure">
         <img
@@ -485,6 +524,22 @@ _styles: |
         <div class="featured-paper-journal">eLife</div>
       </div>
     </a>
+    </div>
+
+    <div class="featured-carousel-controls" aria-label="Featured publication navigation">
+      <button
+        class="featured-carousel-button"
+        type="button"
+        aria-label="Previous featured publications"
+        data-featured-previous
+      >‹</button>
+      <button
+        class="featured-carousel-button"
+        type="button"
+        aria-label="Next featured publications"
+        data-featured-next
+      >›</button>
+    </div>
   </div>
 </section>
 
