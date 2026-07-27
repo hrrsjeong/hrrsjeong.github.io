@@ -206,7 +206,7 @@ _styles: |
         <div class="pi-entry-period">2023–2026</div>
         <div>
           <h3>Computational Scientist</h3>
-          <p><a href="https://altoslabs.com/" target="_blank" rel="noopener noreferrer">Altos Labs</a>, San Diego Institute of Science · Kun Zhang Group</p>
+          <p>Altos Labs, San Diego Institute of Science · Kun Zhang Group</p>
         </div>
       </li>
       <li class="pi-entry">
@@ -232,7 +232,7 @@ _styles: |
       <li class="pi-entry">
         <div class="pi-entry-period">2016–2017</div>
         <div>
-          <h3>M.S. in Animal Sciences</h3>
+          <h3>M.S. in Biostatistics</h3>
           <p>University of Illinois Urbana-Champaign</p>
         </div>
       </li>
@@ -269,7 +269,7 @@ _styles: |
       </p>
 
       <p>
-        At Altos Labs, I extended my research into aging, using single-cell DNA methylation and multi-omic approaches to study cell-type-specific epigenetic aging, tissue injury, and disease-associated repair states. This experience deepened my interest in connecting evolutionary medicine with the mechanisms of age-associated disease.
+        At <a href="https://altoslabs.com/" target="_blank" rel="noopener noreferrer">Altos Labs</a>, I extended my research into aging, using single-cell DNA methylation and multi-omic approaches to study cell-type-specific epigenetic aging, tissue injury, and disease-associated repair states. This experience deepened my interest in connecting evolutionary medicine with the mechanisms of age-associated disease.
       </p>
 
       <p>
