@@ -157,7 +157,7 @@ _styles: |
     <div class="tagline">Lead independent projects in evolutionary genomics, epigenomics, and computational biology.</div>
     <div class="availability-pill"><i class="fa-solid fa-user-plus"></i><span class="count">1</span> opening</div>
   </a>
-  <a class="join-card" href="#graduate-students">
+  <a class="join-card" href="{{ '/join/graduate-research/' | relative_url }}">
     <div class="role">Graduate Students</div>
     <div class="tagline">Join through the Department of Life Sciences at GIST and develop a thesis project in genome science.</div>
     <div class="availability-pill"><i class="fa-solid fa-user-graduate"></i><span class="count">3</span> M.S.-Ph.D. or Ph.D.</div>
@@ -167,7 +167,7 @@ _styles: |
     <div class="tagline">Build analysis workflows for sequencing, comparative genomics, and long-read genome projects.</div>
     <div class="availability-pill"><i class="fa-solid fa-laptop-code"></i><span class="count">1</span> opening</div>
   </a>
-  <a class="join-card" href="#undergraduates">
+  <a class="join-card" href="{{ '/join/undergraduate-research/' | relative_url }}">
     <div class="role">Undergraduates</div>
     <div class="tagline">Learn computational biology through hands-on research and data analysis.</div>
     <div class="availability-pill"><i class="fa-solid fa-seedling"></i>Rolling basis</div>
@@ -231,8 +231,8 @@ _styles: |
   <p>
     Prospective students should email me with a description of their research interests, relevant coursework or research experience, and an academic transcript.
   </p>
-  <a class="join-cta" href="mailto:jeonglab.gist@gmail.com?subject=Prospective%20graduate%20student%20-%20Jeong%20Lab">
-    <i class="fa-solid fa-envelope"></i> Email about this position
+  <a class="join-cta" href="{{ '/join/graduate-research/' | relative_url }}">
+    <i class="fa-solid fa-arrow-right"></i> View graduate research opportunities
   </a>
 </div>
 
@@ -283,7 +283,7 @@ _styles: |
   <p>
     Interested students should email me with a short introduction, research interests, relevant coursework, and any programming or research experience.
   </p>
-  <a class="join-cta" href="mailto:jeonglab.gist@gmail.com?subject=Undergraduate%20research%20-%20Jeong%20Lab">
-    <i class="fa-solid fa-envelope"></i> Email about this position
+  <a class="join-cta" href="{{ '/join/undergraduate-research/' | relative_url }}">
+    <i class="fa-solid fa-arrow-right"></i> View undergraduate research opportunities
   </a>
 </div>
