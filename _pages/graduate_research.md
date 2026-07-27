@@ -184,13 +184,15 @@ _styles: |
     <div class="graduate-opportunity-direction">
       <h3>4. Machine learning and bioinformatics method development</h3>
       <p>
-        복잡한 유전체 및 후성유전체 데이터에서 구조변이, 세포 유형별 조절 변화, 종 간 차이를 정량화하는 계산 방법을 개발합니다. 연구 질문에 따라 머신러닝과 AI를 활용하여 대규모 데이터의 패턴을 찾고 서로 다른 데이터 유형을 통합합니다.
+        복잡한 유전체 및 후성유전체 데이터에서 구조변이, 세포 유형별 조절 변화, 종 간 차이를 정량화하는 계산 방법을 개발합니다. Single-cell DNA methylation data를 이용해 세포 계통과 clonal structure를 추론하는 lineage-tracing methods를 개발하고, 이를 노화와 cancer evolution 연구에 적용합니다.
       </p>
       <p>
-        개발한 방법은 재현 가능한 workflow, database 및 bioinformatics tool로 구현하고 실제 진화·노화·질환 데이터에 적용합니다.
+        연구 질문에 따라 머신러닝과 AI를 활용하여 대규모 데이터의 패턴을 찾고 서로 다른 데이터 유형을 통합하며, 개발한 방법을 재현 가능한 bioinformatics analysis tools로 구현합니다.
       </p>
       <p class="graduate-opportunity-papers">
         <em>Representative papers:</em>
+        <a href="https://www.biorxiv.org/content/10.64898/2026.01.22.700871v1">Jeong et al., <em>Nature Aging</em>, accepted, 2026</a>;
+        <a href="https://doi.org/10.1038/s41588-024-02051-8">Jeong et al., <em>Nature Genetics</em>, 2025</a>;
         <a href="https://doi.org/10.1093/nar/gkv1245">Jeong et al., <em>Nucleic Acids Research</em>, 2016</a>;
         <a href="https://doi.org/10.1038/s41598-019-42227-5">Jeong et al., <em>Scientific Reports</em>, 2019</a>.
       </p>
