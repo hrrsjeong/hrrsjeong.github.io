@@ -66,12 +66,6 @@ _styles: |
     color: var(--global-text-color);
     margin: 0;
   }
-  .pi-contact a {
-    color: var(--profile-accent);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.2rem;
-  }
   .pi-section {
     border-top: 1px solid var(--global-divider-color);
     display: grid;
@@ -126,6 +120,13 @@ _styles: |
     font-size: 0.92rem;
     line-height: 1.45;
     margin: 0;
+  }
+  .pi-entry p a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--profile-accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2rem;
   }
   .pi-biography-copy {
     max-width: 47rem;
@@ -186,7 +187,7 @@ _styles: |
         <dt>Tel</dt>
         <dd>+82-62-715-2505</dd>
         <dt>Email</dt>
-        <dd><a href="mailto:hrrsjeong@gist.ac.kr">hrrsjeong [at] gist.ac.kr</a></dd>
+        <dd>hrrsjeong [at] gist.ac.kr</dd>
       </dl>
     </div>
   </section>
@@ -205,7 +206,7 @@ _styles: |
         <div class="pi-entry-period">2023–2026</div>
         <div>
           <h3>Computational Scientist</h3>
-          <p>Altos Labs, San Diego Institute of Science · Kun Zhang Group</p>
+          <p><a href="https://altoslabs.com/" target="_blank" rel="noopener noreferrer">Altos Labs</a>, San Diego Institute of Science · Kun Zhang Group</p>
         </div>
       </li>
       <li class="pi-entry">
@@ -245,7 +246,7 @@ _styles: |
       <li class="pi-entry">
         <div class="pi-entry-period">2008–2014</div>
         <div>
-          <h3>B.S. in Bioinformatics Engineering</h3>
+          <h3>B.S. in Bioinformatics &amp; Biotechnology</h3>
           <p>Korea University, Sejong, Korea</p>
         </div>
       </li>

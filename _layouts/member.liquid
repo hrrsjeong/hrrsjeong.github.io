@@ -43,17 +43,54 @@ layout: page
     line-height: 1.65;
     margin: 0;
   }
+  .member-profile-details {
+    display: grid;
+    gap: 1.45rem;
+    margin-top: 1.65rem;
+  }
+  .member-profile-section h2 {
+    color: var(--global-theme-color);
+    font-size: 0.75rem;
+    font-weight: 720;
+    letter-spacing: 0.1em;
+    margin: 0 0 0.7rem;
+    text-transform: uppercase;
+  }
+  .member-profile-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .member-profile-entry + .member-profile-entry {
+    margin-top: 0.85rem;
+  }
+  .member-profile-entry-title {
+    color: var(--global-text-color);
+    font-size: 0.96rem;
+    font-weight: 630;
+    line-height: 1.45;
+    margin: 0 0 0.1rem;
+  }
+  .member-profile-entry-institution {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.45;
+    margin: 0;
+  }
   .member-profile-back {
     color: var(--global-theme-color);
     display: inline-block;
     font-size: 0.88rem;
     font-weight: 650;
-    margin-top: 1.5rem;
+    margin-top: 1.75rem;
   }
-  @media (max-width: 560px) {
+  @media (max-width: 640px) {
     .member-profile {
-      grid-template-columns: minmax(8.5rem, 45%) 1fr;
-      gap: 1.2rem;
+      gap: 1.5rem;
+      grid-template-columns: 1fr;
+    }
+    .member-profile-media {
+      max-width: 13.5rem;
     }
   }
 </style>
@@ -72,6 +109,39 @@ layout: page
       Department of Life Sciences<br>
       Gwangju Institute of Science and Technology (GIST)
     </p>
+
+    {% if page.education or page.previous_positions %}
+      <div class="member-profile-details">
+        {% if page.education %}
+          <section class="member-profile-section" aria-labelledby="member-education-title">
+            <h2 id="member-education-title">Education</h2>
+            <ul class="member-profile-list">
+              {% for item in page.education %}
+                <li class="member-profile-entry">
+                  <p class="member-profile-entry-title">{{ item.degree }}</p>
+                  <p class="member-profile-entry-institution">{{ item.institution }}</p>
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+
+        {% if page.previous_positions %}
+          <section class="member-profile-section" aria-labelledby="member-positions-title">
+            <h2 id="member-positions-title">Previous Position</h2>
+            <ul class="member-profile-list">
+              {% for item in page.previous_positions %}
+                <li class="member-profile-entry">
+                  <p class="member-profile-entry-title">{{ item.title }}</p>
+                  <p class="member-profile-entry-institution">{{ item.institution }}</p>
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <a class="member-profile-back" href="{{ '/people/' | relative_url }}">← Back to Team</a>
   </div>
 </div>

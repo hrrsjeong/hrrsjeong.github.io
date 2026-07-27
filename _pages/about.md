@@ -8,13 +8,13 @@ _styles: |
     --home-accent: #806986;
     --home-accent-dark: #5d4c66;
     --home-paper-bg: #eeece7;
-    --home-wide: min(1120px, calc(100vw - 2rem));
     padding-bottom: 2.5rem;
   }
   .home-wide {
-    width: var(--home-wide);
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 57rem;
+    width: 100%;
   }
   .home-hero {
     position: relative;
@@ -66,6 +66,7 @@ _styles: |
   .home-intro {
     max-width: 57rem;
     margin: clamp(2.8rem, 6vw, 5rem) auto;
+    width: 100%;
   }
   .home-intro p {
     color: var(--global-text-color);
@@ -139,6 +140,39 @@ _styles: |
     font-weight: 650;
     white-space: nowrap;
   }
+  .featured-publication-actions {
+    align-items: center;
+    display: flex;
+    gap: 0.85rem;
+  }
+  .featured-carousel-controls {
+    display: flex;
+    gap: 0.35rem;
+  }
+  .featured-carousel-button {
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 50%;
+    color: var(--global-text-color);
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2rem;
+    justify-content: center;
+    line-height: 1;
+    padding: 0;
+    transition: border-color 0.15s ease, color 0.15s ease;
+    width: 2rem;
+  }
+  .featured-carousel-button:hover,
+  .featured-carousel-button:focus {
+    border-color: var(--home-accent);
+    color: var(--home-accent-dark);
+  }
+  .featured-carousel-button:disabled {
+    cursor: default;
+    opacity: 0.3;
+  }
   .home-news-list {
     border-top: 1px solid var(--global-divider-color);
     list-style: none;
@@ -166,8 +200,16 @@ _styles: |
   }
   .featured-paper-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-columns: calc((100% - 2rem) / 3);
+    grid-auto-flow: column;
     gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .featured-paper-grid::-webkit-scrollbar {
+    display: none;
   }
   .featured-paper {
     display: flex;
@@ -178,6 +220,7 @@ _styles: |
     border-radius: 0.15rem;
     color: var(--global-text-color);
     background: var(--global-card-bg-color);
+    scroll-snap-align: start;
     transition: border-color 0.15s ease, transform 0.15s ease;
   }
   .featured-paper:hover,
@@ -251,24 +294,10 @@ _styles: |
   }
   @media (max-width: 900px) {
     .featured-paper-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-    .featured-paper:last-child {
-      grid-column: 1 / -1;
-      display: grid;
-      grid-template-columns: minmax(15rem, 0.9fr) 1.1fr;
-    }
-    .featured-paper:last-child .featured-paper-figure {
-      height: 100%;
-      min-height: 13rem;
-      border-right: 1px solid var(--global-divider-color);
-      border-bottom: 0;
+      grid-auto-columns: calc((100% - 1rem) / 2);
     }
   }
   @media (max-width: 620px) {
-    .lab-home {
-      --home-wide: calc(100vw - 1.25rem);
-    }
     .home-hero {
       aspect-ratio: 2 / 1;
       background-position: 55% center;
@@ -292,18 +321,12 @@ _styles: |
       gap: 0.25rem;
       padding: 0.85rem 0;
     }
+    .featured-publication-actions {
+      justify-content: space-between;
+      width: 100%;
+    }
     .featured-paper-grid {
-      grid-template-columns: 1fr;
-    }
-    .featured-paper:last-child {
-      display: flex;
-      grid-column: auto;
-    }
-    .featured-paper:last-child .featured-paper-figure {
-      height: 12rem;
-      min-height: 0;
-      border-right: 0;
-      border-bottom: 1px solid var(--global-divider-color);
+      grid-auto-columns: 100%;
     }
   }
 ---
@@ -347,10 +370,26 @@ _styles: |
 <section class="featured-publications home-wide" aria-labelledby="featured-publications-title">
   <div class="home-section-header">
     <h2 id="featured-publications-title">Featured Publications</h2>
-    <a class="home-section-link" href="{{ '/publications/' | relative_url }}">View all publications →</a>
+    <div class="featured-publication-actions">
+      <div class="featured-carousel-controls" aria-label="Featured publication navigation">
+        <button
+          class="featured-carousel-button"
+          type="button"
+          aria-label="Previous featured publications"
+          data-featured-previous
+        >←</button>
+        <button
+          class="featured-carousel-button"
+          type="button"
+          aria-label="Next featured publications"
+          data-featured-next
+        >→</button>
+      </div>
+      <a class="home-section-link" href="{{ '/publications/' | relative_url }}">View all publications →</a>
+    </div>
   </div>
 
-  <div class="featured-paper-grid">
+  <div class="featured-paper-grid" data-featured-carousel>
     <a class="featured-paper" href="https://doi.org/10.1038/s41588-024-02051-8">
       <div class="featured-paper-figure">
         <img
@@ -364,6 +403,22 @@ _styles: |
         <h3>Structural polymorphism and diversity of human segmental duplications</h3>
         <p>Long-read assemblies reveal population-scale diversity in duplicated regions that have been difficult to resolve at sequence level.</p>
         <div class="featured-paper-journal">Nature Genetics</div>
+      </div>
+    </a>
+
+    <a class="featured-paper" href="https://doi.org/10.1007/s11357-024-01450-3">
+      <div class="featured-paper-figure">
+        <img
+          src="{{ '/assets/img/home/publications/jeong-2025-geroscience-fig1-card.png' | relative_url }}"
+          alt="Figure 1 variation of DNA methylation in neurons and oligodendrocytes across age"
+          loading="lazy"
+        >
+      </div>
+      <div class="featured-paper-body">
+        <div class="featured-paper-meta">Epigenetic Aging · 2024</div>
+        <h3>Human brain aging is associated with dysregulation of cell type epigenetic identity</h3>
+        <p>Age-associated DNA methylation changes connect declining cell identity with brain aging and disease vulnerability.</p>
+        <div class="featured-paper-journal">GeroScience</div>
       </div>
     </a>
 
@@ -383,20 +438,102 @@ _styles: |
       </div>
     </a>
 
-    <a class="featured-paper" href="https://doi.org/10.1007/s11357-024-01450-3">
+    <a class="featured-paper" href="https://doi.org/10.1038/s41586-025-08816-3">
       <div class="featured-paper-figure">
         <img
-          src="{{ '/assets/img/home/publications/jeong-2025-geroscience-fig1-card.png' | relative_url }}"
-          alt="Figure 1 variation of DNA methylation in neurons and oligodendrocytes across age"
+          src="{{ '/assets/img/home/publications/yoo-2025-nature-fig1-card.png' | relative_url }}"
+          alt="Figure 1 chromosomal alignments across complete great ape genomes"
           loading="lazy"
         >
       </div>
       <div class="featured-paper-body">
-        <div class="featured-paper-meta">Epigenetic Aging · 2025</div>
-        <h3>Human brain aging is associated with dysregulation of cell type epigenetic identity</h3>
-        <p>Age-associated DNA methylation changes connect declining cell identity with brain aging and disease vulnerability.</p>
-        <div class="featured-paper-journal">GeroScience</div>
+        <div class="featured-paper-meta">Ape Genomes · 2025</div>
+        <h3>Complete sequencing of ape genomes</h3>
+        <p>Haplotype-resolved reference genomes expose previously inaccessible regions across six ape species.</p>
+        <div class="featured-paper-journal">Nature</div>
+      </div>
+    </a>
+
+    <a class="featured-paper" href="https://www.biorxiv.org/content/10.64898/2026.01.22.700871v1">
+      <div class="featured-paper-figure">
+        <img
+          src="{{ '/assets/img/home/publications/jeong-2026-kidney-fig1-card.jpg' | relative_url }}"
+          alt="Figure 1 single-cell DNA methylome atlas of human and mouse kidney cell types"
+          loading="lazy"
+        >
+      </div>
+      <div class="featured-paper-body">
+        <div class="featured-paper-meta">Kidney Aging · 2026</div>
+        <h3>A cross-species single-cell epigenome kidney atlas</h3>
+        <p>Single-cell multi-omics maps cell-type-specific aging and disease-associated repair states across human and mouse kidneys.</p>
+        <div class="featured-paper-journal">Nature Aging · Accepted</div>
+      </div>
+    </a>
+
+    <a class="featured-paper" href="https://doi.org/10.7554/eLife.79387">
+      <div class="featured-paper-figure">
+        <img
+          src="{{ '/assets/img/home/publications/jeong-2022-elife-fig1-card.jpg' | relative_url }}"
+          alt="Figure 1 genomic differentiation associated with the white-throated sparrow supergene"
+          loading="lazy"
+        >
+      </div>
+      <div class="featured-paper-body">
+        <div class="featured-paper-meta">Genome Evolution · 2022</div>
+        <h3>Dynamic molecular evolution of a supergene with suppressed recombination</h3>
+        <p>Population genomic and transcriptomic analyses reveal distinct evolutionary dynamics within a vertebrate supergene.</p>
+        <div class="featured-paper-journal">eLife</div>
       </div>
     </a>
   </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const carousel = document.querySelector('[data-featured-carousel]');
+    const previousButton = document.querySelector('[data-featured-previous]');
+    const nextButton = document.querySelector('[data-featured-next]');
+
+    if (!carousel || !previousButton || !nextButton) return;
+
+    const cards = Array.from(carousel.querySelectorAll('.featured-paper'));
+
+    function visibleCardCount() {
+      if (!cards.length) return 1;
+      return Math.max(1, Math.round(carousel.clientWidth / cards[0].getBoundingClientRect().width));
+    }
+
+    function currentCardIndex() {
+      if (!cards.length) return 0;
+      const cardWidth = cards[0].getBoundingClientRect().width;
+      const gap = parseFloat(window.getComputedStyle(carousel).columnGap) || 0;
+      return Math.round(carousel.scrollLeft / (cardWidth + gap));
+    }
+
+    function updateButtons() {
+      const index = currentCardIndex();
+      previousButton.disabled = index <= 0;
+      nextButton.disabled = index >= cards.length - visibleCardCount();
+    }
+
+    function moveCarousel(direction) {
+      const target = Math.min(
+        Math.max(currentCardIndex() + direction * visibleCardCount(), 0),
+        Math.max(cards.length - visibleCardCount(), 0)
+      );
+      const cardWidth = cards[0].getBoundingClientRect().width;
+      const gap = parseFloat(window.getComputedStyle(carousel).columnGap) || 0;
+      carousel.scrollTo({ left: target * (cardWidth + gap), behavior: 'smooth' });
+    }
+
+    previousButton.addEventListener('click', function () {
+      moveCarousel(-1);
+    });
+    nextButton.addEventListener('click', function () {
+      moveCarousel(1);
+    });
+    carousel.addEventListener('scroll', updateButtons, { passive: true });
+    window.addEventListener('resize', updateButtons);
+    updateButtons();
+  });
+</script>

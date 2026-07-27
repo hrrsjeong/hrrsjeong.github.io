@@ -193,7 +193,11 @@ _styles: |
   <div class="team-member-grid">
     <article class="team-member">
       <div class="team-member-media">
-        <div class="team-member-initials" aria-hidden="true">JL</div>
+        <img
+          src="{{ '/assets/img/people/jaewoong-lee-portrait.jpg' | relative_url }}"
+          alt="Jaewoong Lee"
+          loading="lazy"
+        >
       </div>
       <div>
         <h3 class="team-member-name">Jaewoong Lee</h3>
@@ -204,7 +208,11 @@ _styles: |
 
     <article class="team-member">
       <div class="team-member-media">
-        <div class="team-member-initials" aria-hidden="true">YL</div>
+        <img
+          src="{{ '/assets/img/people/youngseo-lee-portrait.jpg' | relative_url }}"
+          alt="Youngseo Lee"
+          loading="lazy"
+        >
       </div>
       <div>
         <h3 class="team-member-name">Youngseo Lee</h3>
@@ -215,7 +223,11 @@ _styles: |
 
     <article class="team-member">
       <div class="team-member-media">
-        <div class="team-member-initials" aria-hidden="true">DK</div>
+        <img
+          src="{{ '/assets/img/people/dongkyun-kang-portrait.jpg' | relative_url }}"
+          alt="Dongkyun Kang"
+          loading="lazy"
+        >
       </div>
       <div>
         <h3 class="team-member-name">Dongkyun Kang</h3>
@@ -226,7 +238,11 @@ _styles: |
 
     <article class="team-member">
       <div class="team-member-media">
-        <div class="team-member-initials" aria-hidden="true">DR</div>
+        <img
+          src="{{ '/assets/img/people/dayoung-ryu-portrait.jpg' | relative_url }}"
+          alt="Dayoung Ryu"
+          loading="lazy"
+        >
       </div>
       <div>
         <h3 class="team-member-name">Dayoung Ryu</h3>
