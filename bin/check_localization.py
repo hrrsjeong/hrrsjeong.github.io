@@ -13,6 +13,7 @@ class Page(HTMLParser):
         self.links = []
         self.assets = []
         self.alternates = {}
+        self.inputs = []
         self.text = []
         self.styles = []
         self.in_style = False
@@ -23,6 +24,7 @@ class Page(HTMLParser):
         if tag == 'html': self.lang = attrs.get('lang')
         if tag == 'a': self.links.append(attrs)
         if tag == 'img': self.assets.append(attrs['src'])
+        if tag == 'input': self.inputs.append(attrs)
         if tag == 'link' and attrs.get('rel') == 'alternate':
             self.alternates[attrs.get('hreflang')] = urlsplit(attrs['href']).path
         if tag == 'style': self.in_style = True
@@ -93,6 +95,12 @@ for lang, prefix in [('en', ''), ('ko', '/ko')]:
 
 ko_publications = ' '.join(Page(output('/ko/publications/')).text)
 assert '초록' in ko_publications
+for url in ['/publications/', '/ko/publications/']:
+    page = Page(output(url))
+    search = [field for field in page.inputs if field.get('id') == 'bibsearch']
+    assert len(search) == 1 and search[0].get('type') == 'text', (url, 'Missing search input')
+    assert search[0].get('aria-label') and search[0].get('placeholder'), url
+    assert '<input' not in ' '.join(page.text), (url, 'Search markup displayed as text')
 ko_home = ' '.join(Page(output('/ko/')).text)
 assert 'Hyeongwoo Choi 박사가 박사후연구원으로 합류했습니다.' in ko_home
 print(f'PASS: {len(pairs)} language pairs, reciprocal switches, localized navigation, assets, metadata, shared styles and translated content')
