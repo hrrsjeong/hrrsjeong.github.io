@@ -214,6 +214,21 @@ _styles: |
     <article class="team-member">
       <div class="team-member-media">
         <img
+          src="{{ '/assets/img/people/hyeongwoo-choi-portrait.jpg' | relative_url }}"
+          alt="Hyeongwoo Choi"
+          loading="lazy"
+        >
+      </div>
+      <div>
+        <h3 class="team-member-name">Hyeongwoo Choi</h3>
+        <p class="team-member-role">Postdoctoral Researcher</p>
+        <a class="team-member-link" href="{{ '/people/hyeongwoo-choi/' | relative_url }}">View profile →</a>
+      </div>
+    </article>
+
+    <article class="team-member">
+      <div class="team-member-media">
+        <img
           src="{{ '/assets/img/people/youngseo-lee-portrait.jpg' | relative_url }}"
           alt="Youngseo Lee"
           loading="lazy"
