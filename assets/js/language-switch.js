@@ -1,0 +1,1 @@
+function updateLanguageLinks(){document.querySelectorAll("[data-language-link]").forEach((a=>{const e=new URL(a.href);e.search=window.location.search,e.hash=window.location.hash,a.href=e.href}))}updateLanguageLinks(),window.addEventListener("hashchange",updateLanguageLinks);
