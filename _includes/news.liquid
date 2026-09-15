@@ -1,3 +1,4 @@
+{% include locale.liquid %}
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
@@ -16,10 +17,14 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%m/%d/%Y' }}</th>
+            <th scope="row" style="width: 20%">{{ item.date | date: ui.date_format }}</th>
             <td>
               {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% if language == 'ko' and item.content_ko -%}
+                  {{- item.content_ko -}}
+                {%- else -%}
+                  {{- item.content | remove: '<p>' | remove: '</p>' | emojify -}}
+                {%- endif %}
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
@@ -29,6 +34,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p>{{ ui.news_empty }}</p>
   {% endif %}
 </div>

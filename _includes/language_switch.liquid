@@ -1,0 +1,25 @@
+{% if korean_url %}
+  <div class="language-switch" role="group" aria-label="{{ ui.language }}">
+    <a
+      href="{{ english_url | relative_url }}"
+      lang="en"
+      hreflang="en"
+      data-language-link
+      {% if language == 'en' %}
+        aria-current="true"
+      {% endif %}
+      >English</a
+    >
+    <span aria-hidden="true">/</span>
+    <a
+      href="{{ korean_url | relative_url }}"
+      lang="ko"
+      hreflang="ko"
+      data-language-link
+      {% if language == 'ko' %}
+        aria-current="true"
+      {% endif %}
+      >한국어</a
+    >
+  </div>
+{% endif %}

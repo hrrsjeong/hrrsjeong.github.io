@@ -1,0 +1,85 @@
+.language-switch {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.35rem;
+  margin-left: 0.8rem;
+  order: 2;
+  white-space: nowrap;
+
+  a {
+    align-items: center;
+    color: var(--global-text-color-light);
+    display: inline-flex;
+    font-size: 0.875rem;
+    min-height: 2.75rem;
+    padding: 0 0.15rem;
+  }
+
+  a[aria-current="true"] {
+    color: var(--global-theme-color);
+    font-weight: 700;
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+
+  span {
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+  }
+}
+
+#navbarNav {
+  order: 1;
+}
+
+html[lang="ko"] body {
+  font-family: "Roboto", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
+
+html[lang="ko"] {
+  .team-section-label,
+  .principal-label,
+  .member-profile-section h2,
+  .research-story-topic {
+    letter-spacing: 0.02em;
+  }
+
+  .research-statement {
+    line-height: 1.45;
+  }
+}
+
+@media (max-width: 767px) {
+  .language-switch {
+    margin-left: auto;
+    margin-right: 0.65rem;
+    order: 1;
+  }
+
+  #navbar .navbar-toggler {
+    margin-left: 0 !important;
+    order: 2;
+  }
+
+  #navbarNav {
+    order: 3;
+  }
+}
+
+@media (max-width: 359px) {
+  #navbar .navbar-brand {
+    font-size: 1.05rem;
+    margin-right: 0.35rem;
+  }
+
+  .language-switch {
+    gap: 0.2rem;
+    margin-right: 0.35rem;
+  }
+}

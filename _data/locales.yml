@@ -1,0 +1,66 @@
+en:
+  home: Home
+  nav:
+    Team: Team
+    Research: Research
+    Publications: Publications
+    Join: Join
+  navigation: Main navigation
+  toggle_navigation: Toggle navigation
+  current: current
+  language: Language
+  theme: Change theme
+  education: Education
+  previous_positions: Previous Position
+  back_to_team: ← Back to Team
+  affiliation_department: Department of Life Sciences
+  affiliation_institution: Gwangju Institute of Science and Technology (GIST)
+  news_empty: No news so far...
+  date_format: "%m/%d/%Y"
+  long_date_format: "%B %d, %Y"
+  publication_search: Type to filter
+  publication_search_label: Search publications by title, author, or year
+  references: References
+  published: Published
+  updated: Last updated
+  abstract: Abs
+  supplement: Supp
+  video: Video
+  blog: Blog
+  code: Code
+  poster: Poster
+  slides: Slides
+  website: Website
+ko:
+  home: 홈
+  nav:
+    Team: Team
+    Research: 연구
+    Publications: 논문
+    Join: 모집 안내
+  navigation: 주요 메뉴
+  toggle_navigation: 메뉴 열기·닫기
+  current: 현재 페이지
+  language: 언어 선택
+  theme: 화면 테마 변경
+  education: 학력
+  previous_positions: 이전 경력
+  back_to_team: ← 구성원 목록으로
+  affiliation_department: 생명과학과
+  affiliation_institution: 광주과학기술원 (GIST)
+  news_empty: 아직 등록된 소식이 없습니다.
+  date_format: "%Y.%m.%d"
+  long_date_format: "%Y년 %m월 %d일"
+  publication_search: 제목·저자·연도로 검색
+  publication_search_label: 논문 제목, 저자 또는 연도로 검색
+  references: 참고문헌
+  published: 게시일
+  updated: 최종 수정일
+  abstract: 초록
+  supplement: 보충 자료
+  video: 영상
+  blog: 블로그
+  code: 코드
+  poster: 포스터
+  slides: 발표 자료
+  website: 웹사이트

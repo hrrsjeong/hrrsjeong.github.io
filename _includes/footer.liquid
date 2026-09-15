@@ -1,5 +1,6 @@
+{% include locale.liquid %}
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
+  &copy; {% unless language == 'ko' %}Copyright{% endunless %} {{ site.time | date: '%Y' }}
   {% if site.title and site.title != 'blank' %}
     {{ site.title }}.
   {% else %}
@@ -12,7 +13,7 @@
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
   {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+    {{ ui.updated }}: {{ 'now' | date: ui.long_date_format }}.
   {% endif %}
 {% endcapture %}
 

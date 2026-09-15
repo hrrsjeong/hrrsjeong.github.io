@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
-{% if page._styles %}
-  <style type="text/css">
-    {{ page._styles }}
-  </style>
-{% endif %}
+{% include page_styles.liquid %}
 
 <div class="lab-home">
   {{ content }}

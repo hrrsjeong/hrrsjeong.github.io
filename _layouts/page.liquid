@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-{% if page._styles %}
-  <!-- Page/Post style -->
-  <style type="text/css">
-    {{ page._styles }}
-  </style>
-{% endif %}
+{% include page_styles.liquid %}
 
-<div class="post">
+<div
+  class="post"
+  {% if page.content_lang %}
+    lang="{{ page.content_lang }}"
+  {% endif %}
+>
   <header class="post-header">
     <h1 class="post-title">{{ page.display_title | default: page.title }}</h1>
     {% if page.description %}
@@ -21,7 +21,9 @@ layout: default
   </article>
 
   {% if page.related_publications %}
-    <h2>References</h2>
+    <h2>
+      {% if page.lang == 'ko' %}참고문헌{% else %}References{% endif %}
+    </h2>
     <div class="publications">
       {% bibliography --cited_in_order %}
     </div>

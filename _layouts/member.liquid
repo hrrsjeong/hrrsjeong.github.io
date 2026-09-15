@@ -1,7 +1,12 @@
 ---
 layout: page
 ---
-
+{% include locale.liquid %}
+{% assign member = page %}
+{% if page.translation_of %}
+  {% assign member = site.pages | where: 'url', page.translation_of | first %}
+{% endif %}
+{% assign member_ui = site.data.locales.en %}
 <style>
   .member-profile {
     display: grid;
@@ -97,26 +102,27 @@ layout: page
 
 <div class="member-profile">
   <div class="member-profile-media">
-    {% if page.profile_image %}
-      <img src="{{ page.profile_image | relative_url }}" alt="{{ page.title }}">
+    {% if member.profile_image %}
+      <img src="{{ member.profile_image | relative_url }}" alt="{{ member.title }}">
     {% else %}
-      <div class="member-profile-initials" aria-hidden="true">{{ page.initials }}</div>
+      <div class="member-profile-initials" aria-hidden="true">{{ member.initials }}</div>
     {% endif %}
   </div>
   <div>
     <p class="member-profile-affiliation">
       Jeong Lab<br>
-      Department of Life Sciences<br>
-      Gwangju Institute of Science and Technology (GIST)
+      {{ member_ui.affiliation_department -}}
+      <br>
+      {{ member_ui.affiliation_institution }}
     </p>
 
-    {% if page.education or page.previous_positions %}
+    {% if member.education or member.previous_positions %}
       <div class="member-profile-details">
-        {% if page.education %}
+        {% if member.education %}
           <section class="member-profile-section" aria-labelledby="member-education-title">
-            <h2 id="member-education-title">Education</h2>
+            <h2 id="member-education-title">{{ member_ui.education }}</h2>
             <ul class="member-profile-list">
-              {% for item in page.education %}
+              {% for item in member.education %}
                 <li class="member-profile-entry">
                   <p class="member-profile-entry-title">{{ item.degree }}</p>
                   <p class="member-profile-entry-institution">{{ item.institution }}</p>
@@ -126,11 +132,11 @@ layout: page
           </section>
         {% endif %}
 
-        {% if page.previous_positions %}
+        {% if member.previous_positions %}
           <section class="member-profile-section" aria-labelledby="member-positions-title">
-            <h2 id="member-positions-title">Previous Position</h2>
+            <h2 id="member-positions-title">{{ member_ui.previous_positions }}</h2>
             <ul class="member-profile-list">
-              {% for item in page.previous_positions %}
+              {% for item in member.previous_positions %}
                 <li class="member-profile-entry">
                   <p class="member-profile-entry-title">{{ item.title }}</p>
                   <p class="member-profile-entry-institution">{{ item.institution }}</p>
@@ -142,6 +148,6 @@ layout: page
       </div>
     {% endif %}
 
-    <a class="member-profile-back" href="{{ '/people/' | relative_url }}">← Back to Team</a>
+    <a class="member-profile-back" href="{{ '/people/' | prepend: language_prefix | relative_url }}">{{ member_ui.back_to_team }}</a>
   </div>
 </div>

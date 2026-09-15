@@ -147,7 +147,7 @@ _styles: |
 
 <div class="join-hero">
   <p class="mb-0">
-    The Jeong Lab is building a computational and experimental genomics group at GIST to study genome evolution, epigenomic regulation, aging, and disease susceptibility. We welcome applications from people who enjoy quantitative biology, careful data analysis, and collaborative science.
+    The Jeong Lab is building a computational genomics group at GIST to study genome evolution, epigenomic regulation, aging, and disease susceptibility. We welcome applications from people who enjoy quantitative biology, careful data analysis, and collaborative science.
   </p>
 </div>
 

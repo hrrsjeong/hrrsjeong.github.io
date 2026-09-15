@@ -2,6 +2,7 @@
 layout: post
 date: 2026-07-01 09:00:00-0700
 inline: true
+content_ko: 강동균, 류다영, 이영서 학생이 학부 연구생으로 합류했습니다. 환영합니다!
 related_posts: false
 ---
 

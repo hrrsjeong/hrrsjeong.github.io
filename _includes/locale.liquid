@@ -1,0 +1,12 @@
+{%- assign language = page.lang | default: site.lang | default: 'en' -%}
+{%- assign ui = site.data.locales[language] | default: site.data.locales.en -%}
+{%- assign language_prefix = '' -%}
+{%- assign english_url = page.translation_of | default: page.url -%}
+{%- assign korean_url = null -%}
+{%- if language == 'ko' -%}
+  {%- assign language_prefix = '/ko' -%}
+  {%- assign korean_url = page.url -%}
+{%- else -%}
+  {%- assign korean_page = site.pages | where: 'translation_of', english_url | first -%}
+  {%- assign korean_url = korean_page.url -%}
+{%- endif -%}

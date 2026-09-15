@@ -85,74 +85,74 @@ _styles: |
 
 <article class="undergraduate-opportunity">
   <p class="undergraduate-opportunity-lead">
-    <strong>계산유전체 및 진화의학 연구실(Computational Genomics &amp; Evolutionary Medicine Lab, PI: 정현수)</strong>에서는 유전체 데이터 분석과 계산생물학 연구를 경험하고 싶은 학부연구생을 모집합니다.
+    The <strong>Computational Genomics &amp; Evolutionary Medicine Lab (PI: Hyeonsoo Jeong)</strong> welcomes undergraduate students interested in gaining experience in genomic data analysis and computational biology.
   </p>
 
   <p class="undergraduate-opportunity-intro">
-    우리 연구실은 다양한 종과 세포 유형에서 나타나는 유전체 구조와 후성유전체 조절을 연구하며, 이를 통해 인간 진화, 노화 및 신경계 질환을 이해하고자 합니다. 연구실은 실험실 기반의 wet-lab 연구를 수행하지 않는 <strong>100% dry lab</strong>입니다. 대규모 유전체 및 multi-omics 데이터를 분석하고, 통계적 모델링과 머신러닝·AI 기반 접근법을 활용하여 복잡한 생물학적 패턴을 발견하는 연구를 진행합니다.
+    We study genome structure and epigenomic regulation across species and cell types to understand human evolution, aging, and neurological disorders. We are a <strong>100% dry lab</strong> and do not conduct wet-lab experiments. Our work analyzes large genomic and multi-omics datasets using statistical modeling, machine learning, and AI to uncover complex biological patterns.
   </p>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-research-title">
     <h2 id="undergraduate-research-title">Research opportunities</h2>
-    <p>학부연구생은 관심 분야와 경험에 따라 다음과 같은 연구에 참여할 수 있습니다.</p>
+    <p>Depending on their interests and experience, undergraduate researchers can participate in:</p>
     <ul>
-      <li>인간 및 영장류 비교유전체학</li>
-      <li>복잡한 유전체 구조와 구조변이 분석</li>
-      <li>후성유전체와 유전자 조절 연구</li>
-      <li>노화 및 질환 관련 single-cell·multi-omics 데이터 분석</li>
-      <li>머신러닝과 AI를 활용한 유전체 데이터의 패턴 탐색 및 예측</li>
-      <li>생물정보학 분석 도구와 재현 가능한 workflow 개발</li>
+      <li>Comparative genomics of humans and other primates</li>
+      <li>Analysis of complex genome structure and structural variation</li>
+      <li>Epigenomics and gene regulation research</li>
+      <li>Single-cell and multi-omics data analysis in aging and disease</li>
+      <li>Pattern discovery and prediction in genomic data using machine learning and AI</li>
+      <li>Development of bioinformatics tools and reproducible workflows</li>
     </ul>
     <p>
-      프로그래밍이나 생물정보학 경험이 많지 않은 학생은 문헌을 읽고 데이터를 이해하는 과정부터 시작합니다. 이후 Linux 환경, Python 또는 R을 이용한 데이터 분석, 시각화 및 연구 결과 해석을 단계적으로 배우게 됩니다.
+      Students with limited programming or bioinformatics experience begin by reading the literature and learning about the data. They then gradually learn to work in Linux, analyze data with Python or R, create visualizations, and interpret research results.
     </p>
     <p class="undergraduate-opportunity-note">
-      프로그래밍, 통계 분석 또는 머신러닝 경험이 충분한 학생은 현재 진행 중인 연구 프로젝트의 데이터 분석과 방법론 개발에 직접 참여할 수 있습니다. 프로젝트에 실질적으로 기여한 경우 연구 결과 발표와 논문 작성 과정에 참여하고, 기여도에 따라 논문의 공동저자가 될 수 있습니다.
+      Students with sufficient programming, statistics, or machine learning experience may contribute directly to data analysis and method development in ongoing projects. Students who make substantive contributions may participate in presentations and manuscript preparation, and may qualify for coauthorship according to their contributions.
     </p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-applicants-title">
     <h2 id="undergraduate-applicants-title">Who should apply?</h2>
-    <p>다음과 같은 학생을 환영합니다.</p>
+    <p>We welcome students who:</p>
     <ul>
-      <li>유전체학, 진화, 노화 또는 질환 생물학에 관심이 있는 학생</li>
-      <li>실제 대규모 생물학 데이터를 분석해보고 싶은 학생</li>
-      <li>생명과학과 컴퓨터과학, 통계학 또는 AI의 접점에 관심이 있는 학생</li>
-      <li>새로운 분석 방법이나 생물정보학 도구를 개발해보고 싶은 학생</li>
-      <li>일정 기간 꾸준히 연구에 참여할 수 있는 학생</li>
+      <li>Are interested in genomics, evolution, aging, or disease biology</li>
+      <li>Want to analyze real, large-scale biological datasets</li>
+      <li>Are interested in the intersection of life sciences with computer science, statistics, or AI</li>
+      <li>Want to develop new analytical methods or bioinformatics tools</li>
+      <li>Can commit to participating consistently over an agreed period</li>
     </ul>
     <p>
-      프로그래밍 경험이 있으면 도움이 되지만 필수는 아닙니다. 현재의 기술 수준뿐 아니라 새로운 내용을 배우려는 의지, 꾸준함, 그리고 데이터와 생물학적 질문을 함께 고민하는 태도를 중요하게 생각합니다.
+      Programming experience is helpful but not required. Alongside current skills, we value a willingness to learn, consistent effort, and an interest in connecting data with biological questions.
     </p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-training-title">
     <h2 id="undergraduate-training-title">Training</h2>
-    <p>학부연구생은 연구 과정에서 다음을 배울 수 있습니다.</p>
+    <p>Undergraduate researchers can learn:</p>
     <ul>
-      <li>Linux 기반 계산 연구 환경</li>
-      <li>Python 또는 R을 이용한 데이터 분석</li>
-      <li>유전체 및 후성유전체 데이터 처리와 해석</li>
-      <li>통계적 모델링과 머신러닝의 생물학적 활용</li>
-      <li>재현 가능한 분석 workflow 구성</li>
-      <li>논문 읽기, 연구 결과 시각화 및 발표</li>
-      <li>연구 결과 정리와 논문 작성 과정</li>
+      <li>Linux-based computational research</li>
+      <li>Data analysis using Python or R</li>
+      <li>Processing and interpretation of genomic and epigenomic data</li>
+      <li>Biological applications of statistical modeling and machine learning</li>
+      <li>Building reproducible analysis workflows</li>
+      <li>Reading papers, visualizing results, and presenting research</li>
+      <li>Organizing research findings and preparing manuscripts</li>
     </ul>
-    <p>정기적인 미팅을 통해 연구 진행 상황과 향후 진로에 대해서도 함께 논의합니다.</p>
+    <p>Regular meetings also provide opportunities to discuss research progress and future career plans.</p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-apply-title">
     <h2 id="undergraduate-apply-title">How to apply</h2>
-    <p>관심 있는 학생은 아래 내용을 포함하여 이메일을 보내주세요.</p>
+    <p>Please email the following information:</p>
     <ul>
-      <li>간단한 자기소개</li>
-      <li>관심 있는 연구 주제</li>
-      <li>관련 수업, 프로그래밍 또는 연구 경험</li>
-      <li>참여 가능한 시기와 예상 기간</li>
-      <li>성적표</li>
+      <li>A brief introduction</li>
+      <li>Research interests</li>
+      <li>Relevant coursework, programming, or research experience</li>
+      <li>Your availability and expected duration of participation</li>
+      <li>Academic transcript</li>
     </ul>
     <p>
-      프로그래밍 경험이 있다면 GitHub, 분석 코드 또는 이전 프로젝트 자료를 선택적으로 첨부할 수 있습니다. 모집은 상시로 진행하며, 지원 내용을 검토한 뒤 개별 면담을 통해 가능한 프로젝트와 활동 방식을 논의합니다.
+      If you have programming experience, you may optionally include your GitHub profile, analysis code, or materials from previous projects. Applications are accepted on a rolling basis. After reviewing your materials, we will arrange an individual meeting to discuss possible projects and how you can participate.
     </p>
     <a
       class="undergraduate-opportunity-cta"
@@ -163,5 +163,6 @@ _styles: |
     </a>
   </section>
 
-  <a class="undergraduate-opportunity-back" href="{{ '/join/' | relative_url }}">← Back to Join the Lab</a>
+<a class="undergraduate-opportunity-back" href="{{ '/join/' | relative_url }}">← Back to Join the Lab</a>
+
 </article>

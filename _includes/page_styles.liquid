@@ -1,0 +1,10 @@
+{% assign page_styles = page._styles %}
+{% if page.translation_of and page_styles == null %}
+  {% assign original_page = site.pages | where: 'url', page.translation_of | first %}
+  {% assign page_styles = original_page._styles %}
+{% endif %}
+{% if page_styles %}
+  <style type="text/css">
+    {{ page_styles }}
+  </style>
+{% endif %}

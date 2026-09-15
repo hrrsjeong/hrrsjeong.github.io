@@ -38,22 +38,5 @@ _styles: |
   }
 ---
 
-<div class="team-role">Graduate Student</div>
-
-<div class="team-placeholder">Placeholder profile for a future lab member</div>
-
-<p>The lab welcomes prospective graduate students interested in bioinformatics, genome evolution, comparative epigenomics, single-cell genomics, long-read sequencing, and computational approaches to aging and disease biology.</p>
-
-<details class="team-details">
-  <summary>Graduate training</summary>
-  <p>Graduate students will develop thesis projects through the Department of Life Sciences at GIST and receive training across computational genomics, data analysis, and biological interpretation.</p>
-</details>
-
-<details class="team-details">
-  <summary>Potential project areas</summary>
-  <ul>
-    <li>Comparative genomics and epigenomics</li>
-    <li>Genome evolution and human-specific variation</li>
-    <li>Aging, disease susceptibility, and single-cell data analysis</li>
-  </ul>
-</details>
+{% include locale.liquid %}
+{% include graduate_position.liquid %}

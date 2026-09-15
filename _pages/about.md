@@ -333,6 +333,12 @@ _styles: |
     .featured-paper-grid {
       grid-auto-columns: calc((100% - 1rem) / 2);
     }
+    .featured-carousel-button[data-featured-previous] {
+      left: 0.55rem;
+    }
+    .featured-carousel-button[data-featured-next] {
+      right: 0.55rem;
+    }
   }
   @media (max-width: 620px) {
     .home-hero {
@@ -540,6 +546,7 @@ _styles: |
         data-featured-next
       >›</button>
     </div>
+
   </div>
 </section>
 
