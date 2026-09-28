@@ -435,6 +435,22 @@ _styles: |
 
   <div class="featured-carousel-shell">
     <div class="featured-paper-grid" data-featured-carousel>
+    <a class="featured-paper" href="https://doi.org/10.1038/s43587-026-01221-z">
+      <div class="featured-paper-figure">
+        <img
+          src="{{ '/assets/img/home/publications/jeong-2026-kidney-fig1-card.jpg' | relative_url }}"
+          alt="Figure 1 single-cell DNA methylome atlas of human and mouse kidney cell types"
+          loading="lazy"
+        >
+      </div>
+      <div class="featured-paper-body">
+        <div class="featured-paper-meta">Kidney Aging · 2026</div>
+        <h3>A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease</h3>
+        <p>Single-cell multi-omics maps cell-type-specific aging and disease-associated repair states across human and mouse kidneys.</p>
+        <div class="featured-paper-journal">Nature Aging</div>
+      </div>
+    </a>
+
     <a class="featured-paper" href="https://doi.org/10.1038/s41588-024-02051-8">
       <div class="featured-paper-figure">
         <img
@@ -448,22 +464,6 @@ _styles: |
         <h3>Structural polymorphism and diversity of human segmental duplications</h3>
         <p>Long-read assemblies reveal population-scale diversity in duplicated regions that have been difficult to resolve at sequence level.</p>
         <div class="featured-paper-journal">Nature Genetics</div>
-      </div>
-    </a>
-
-    <a class="featured-paper" href="https://doi.org/10.1007/s11357-024-01450-3">
-      <div class="featured-paper-figure">
-        <img
-          src="{{ '/assets/img/home/publications/jeong-2025-geroscience-fig1-card.png' | relative_url }}"
-          alt="Figure 1 variation of DNA methylation in neurons and oligodendrocytes across age"
-          loading="lazy"
-        >
-      </div>
-      <div class="featured-paper-body">
-        <div class="featured-paper-meta">Epigenetic Aging · 2024</div>
-        <h3>Human brain aging is associated with dysregulation of cell type epigenetic identity</h3>
-        <p>Age-associated DNA methylation changes connect declining cell identity with brain aging and disease vulnerability.</p>
-        <div class="featured-paper-journal">GeroScience</div>
       </div>
     </a>
 
@@ -483,6 +483,22 @@ _styles: |
       </div>
     </a>
 
+    <a class="featured-paper" href="https://doi.org/10.1007/s11357-024-01450-3">
+      <div class="featured-paper-figure">
+        <img
+          src="{{ '/assets/img/home/publications/jeong-2025-geroscience-fig1-card.png' | relative_url }}"
+          alt="Figure 1 variation of DNA methylation in neurons and oligodendrocytes across age"
+          loading="lazy"
+        >
+      </div>
+      <div class="featured-paper-body">
+        <div class="featured-paper-meta">Epigenetic Aging · 2024</div>
+        <h3>Human brain aging is associated with dysregulation of cell type epigenetic identity</h3>
+        <p>Age-associated DNA methylation changes connect declining cell identity with brain aging and disease vulnerability.</p>
+        <div class="featured-paper-journal">GeroScience</div>
+      </div>
+    </a>
+
     <a class="featured-paper" href="https://doi.org/10.1038/s41586-025-08816-3">
       <div class="featured-paper-figure">
         <img
@@ -496,22 +512,6 @@ _styles: |
         <h3>Complete sequencing of ape genomes</h3>
         <p>Haplotype-resolved reference genomes expose previously inaccessible regions across six ape species.</p>
         <div class="featured-paper-journal">Nature</div>
-      </div>
-    </a>
-
-    <a class="featured-paper" href="https://doi.org/10.1038/s43587-026-01221-z">
-      <div class="featured-paper-figure">
-        <img
-          src="{{ '/assets/img/home/publications/jeong-2026-kidney-fig1-card.jpg' | relative_url }}"
-          alt="Figure 1 single-cell DNA methylome atlas of human and mouse kidney cell types"
-          loading="lazy"
-        >
-      </div>
-      <div class="featured-paper-body">
-        <div class="featured-paper-meta">Kidney Aging · 2026</div>
-        <h3>A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease</h3>
-        <p>Single-cell multi-omics maps cell-type-specific aging and disease-associated repair states across human and mouse kidneys.</p>
-        <div class="featured-paper-journal">Nature Aging</div>
       </div>
     </a>
 

@@ -53,6 +53,22 @@ translation_of: /
 
   <div class="featured-carousel-shell">
     <div class="featured-paper-grid" data-featured-carousel>
+    <a class="featured-paper" href="https://doi.org/10.1038/s43587-026-01221-z">
+      <div class="featured-paper-figure">
+        <img
+          src="{{ '/assets/img/home/publications/jeong-2026-kidney-fig1-card.jpg' | relative_url }}"
+          alt="인간과 생쥐 신장의 세포 유형별 단일세포 DNA 메틸화 지도"
+          loading="lazy"
+        >
+      </div>
+      <div class="featured-paper-body">
+        <div class="featured-paper-meta">신장 노화 · 2026</div>
+        <h3>A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease</h3>
+        <p>인간과 생쥐 신장의 single-cell multi-omics 데이터를 통해 세포 유형별 노화와 질환 관련 조직 복구 상태를 분석했습니다.</p>
+        <div class="featured-paper-journal">Nature Aging</div>
+      </div>
+    </a>
+
     <a class="featured-paper" href="https://doi.org/10.1038/s41588-024-02051-8">
       <div class="featured-paper-figure">
         <img
@@ -66,22 +82,6 @@ translation_of: /
         <h3>Structural polymorphism and diversity of human segmental duplications</h3>
         <p>Long-read 기반 유전체 조립을 통해, 염기서열 수준에서 분석하기 어려웠던 중복 영역의 집단 내 다양성을 밝혔습니다.</p>
         <div class="featured-paper-journal">Nature Genetics</div>
-      </div>
-    </a>
-
-    <a class="featured-paper" href="https://doi.org/10.1007/s11357-024-01450-3">
-      <div class="featured-paper-figure">
-        <img
-          src="{{ '/assets/img/home/publications/jeong-2025-geroscience-fig1-card.png' | relative_url }}"
-          alt="나이에 따른 신경세포와 희소돌기아교세포의 DNA 메틸화 변화"
-          loading="lazy"
-        >
-      </div>
-      <div class="featured-paper-body">
-        <div class="featured-paper-meta">후성유전적 노화 · 2024</div>
-        <h3>Human brain aging is associated with dysregulation of cell type epigenetic identity</h3>
-        <p>노화에 따른 DNA 메틸화 변화가 세포 고유의 특성 약화, 뇌 노화, 질환 취약성과 어떻게 연결되는지 분석했습니다.</p>
-        <div class="featured-paper-journal">GeroScience</div>
       </div>
     </a>
 
@@ -101,6 +101,22 @@ translation_of: /
       </div>
     </a>
 
+    <a class="featured-paper" href="https://doi.org/10.1007/s11357-024-01450-3">
+      <div class="featured-paper-figure">
+        <img
+          src="{{ '/assets/img/home/publications/jeong-2025-geroscience-fig1-card.png' | relative_url }}"
+          alt="나이에 따른 신경세포와 희소돌기아교세포의 DNA 메틸화 변화"
+          loading="lazy"
+        >
+      </div>
+      <div class="featured-paper-body">
+        <div class="featured-paper-meta">후성유전적 노화 · 2024</div>
+        <h3>Human brain aging is associated with dysregulation of cell type epigenetic identity</h3>
+        <p>노화에 따른 DNA 메틸화 변화가 세포 고유의 특성 약화, 뇌 노화, 질환 취약성과 어떻게 연결되는지 분석했습니다.</p>
+        <div class="featured-paper-journal">GeroScience</div>
+      </div>
+    </a>
+
     <a class="featured-paper" href="https://doi.org/10.1038/s41586-025-08816-3">
       <div class="featured-paper-figure">
         <img
@@ -114,22 +130,6 @@ translation_of: /
         <h3>Complete sequencing of ape genomes</h3>
         <p>6종의 유인원에서 haplotype별로 구분한 참조 유전체를 구축해, 이전에는 분석하기 어려웠던 영역을 살펴보았습니다.</p>
         <div class="featured-paper-journal">Nature</div>
-      </div>
-    </a>
-
-    <a class="featured-paper" href="https://doi.org/10.1038/s43587-026-01221-z">
-      <div class="featured-paper-figure">
-        <img
-          src="{{ '/assets/img/home/publications/jeong-2026-kidney-fig1-card.jpg' | relative_url }}"
-          alt="인간과 생쥐 신장의 세포 유형별 단일세포 DNA 메틸화 지도"
-          loading="lazy"
-        >
-      </div>
-      <div class="featured-paper-body">
-        <div class="featured-paper-meta">신장 노화 · 2026</div>
-        <h3>A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease</h3>
-        <p>인간과 생쥐 신장의 single-cell multi-omics 데이터를 통해 세포 유형별 노화와 질환 관련 조직 복구 상태를 분석했습니다.</p>
-        <div class="featured-paper-journal">Nature Aging</div>
       </div>
     </a>
 

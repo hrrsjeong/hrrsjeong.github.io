@@ -136,13 +136,32 @@ _styles: |
     font-weight: 650;
     margin-top: 0.85rem;
   }
+  .team-alumni-section {
+    margin-top: clamp(2.3rem, 5.5vw, 3.8rem);
+  }
+  .team-alumni-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    list-style: none;
+    border-top: 1px solid var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    margin: 0;
+    padding: 1.25rem 0;
+  }
+  .team-alumni-list a {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+  }
   @media (max-width: 767px) {
     .principal-card {
       grid-template-columns: minmax(125px, 32%) 1fr;
       gap: 1.2rem;
       align-items: start;
     }
-    .team-member-grid {
+    .team-member-grid,
+    .team-alumni-list {
       grid-template-columns: 1fr;
     }
     .team-member:nth-last-child(-n + 2) {

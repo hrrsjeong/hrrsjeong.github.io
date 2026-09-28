@@ -2,7 +2,7 @@
 layout: member
 permalink: /people/youngseo-lee/
 title: Youngseo Lee
-description: Undergraduate Researcher
+description: Former Undergraduate Researcher
 initials: YL
 profile_image: /assets/img/people/youngseo-lee-candid.jpg
 education:

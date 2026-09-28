@@ -2,7 +2,7 @@
 layout: member
 permalink: /ko/people/dayoung-ryu/
 title: Dayoung Ryu
-description: Undergraduate Researcher
+description: Former Undergraduate Researcher
 nav: false
 lang: ko
 content_lang: en

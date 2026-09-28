@@ -2,7 +2,7 @@
 layout: member
 permalink: /people/dayoung-ryu/
 title: Dayoung Ryu
-description: Undergraduate Researcher
+description: Former Undergraduate Researcher
 initials: DR
 profile_image: /assets/img/people/dayoung-ryu-candid.jpg
 education:
