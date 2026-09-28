@@ -76,8 +76,8 @@ ninja.data = [{
           section: "News",},{id: "news-dr-hyeongwoo-choi-has-joined-the-jeong-lab-as-a-postdoctoral-researcher-welcome",
           title: 'Dr. Hyeongwoo Choi has joined the Jeong Lab as a postdoctoral researcher. Welcome!...',
           description: "",
-          section: "News",},{id: "news-our-single-cell-dna-methylome-study-is-now-published-in-nature-aging",
-          title: 'Our single-cell DNA methylome study is now published in Nature Aging!',
+          section: "News",},{id: "news-our-single-cell-dna-methylome-study-is-now-published-in-nature-aging-congratulations-to-all-co-authors",
+          title: 'Our single-cell DNA methylome study is now published in Nature Aging! Congratulations to...',
           description: "",
           section: "News",},{
         id: 'social-github',
