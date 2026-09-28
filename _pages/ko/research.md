@@ -67,7 +67,7 @@ translation_of: /research/
         <p>
           인간과 다른 종의 뇌와 신장 데이터를 비교해 노화와 질환에 따른 유전자 조절 변화를 분석합니다. 세포 유형별 유전체·후성유전체 데이터를 바탕으로, 세포 고유의 특성이 달라지는 과정과 조직이 정상적으로 회복되지 않을 때 나타나는 변화를 연구합니다.
         </p>
-        <a class="research-story-link" href="https://doi.org/10.64898/2026.01.22.700871">관련 논문 보기 ↗</a>
+        <a class="research-story-link" href="https://doi.org/10.1038/s43587-026-01221-z">관련 논문 보기 ↗</a>
       </div>
     </article>
 

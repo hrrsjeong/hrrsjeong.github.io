@@ -117,7 +117,7 @@ translation_of: /
       </div>
     </a>
 
-    <a class="featured-paper" href="https://www.biorxiv.org/content/10.64898/2026.01.22.700871v1">
+    <a class="featured-paper" href="https://doi.org/10.1038/s43587-026-01221-z">
       <div class="featured-paper-figure">
         <img
           src="{{ '/assets/img/home/publications/jeong-2026-kidney-fig1-card.jpg' | relative_url }}"
@@ -127,9 +127,9 @@ translation_of: /
       </div>
       <div class="featured-paper-body">
         <div class="featured-paper-meta">신장 노화 · 2026</div>
-        <h3>A cross-species single-cell epigenome kidney atlas</h3>
+        <h3>A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease</h3>
         <p>인간과 생쥐 신장의 single-cell multi-omics 데이터를 통해 세포 유형별 노화와 질환 관련 조직 복구 상태를 분석했습니다.</p>
-        <div class="featured-paper-journal">Nature Aging · 게재 승인</div>
+        <div class="featured-paper-journal">Nature Aging</div>
       </div>
     </a>
 

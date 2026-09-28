@@ -308,7 +308,7 @@ _styles: |
         <p>
           We analyze cell-resolved genomic and epigenomic data to determine how regulatory programs change with aging, disease, and failed tissue repair. Current work spans the brain, kidney, and comparative models of human biology.
         </p>
-        <a class="research-story-link" href="https://doi.org/10.64898/2026.01.22.700871">Read the related work ↗</a>
+        <a class="research-story-link" href="https://doi.org/10.1038/s43587-026-01221-z">Read the related work ↗</a>
       </div>
     </article>
   </section>

@@ -17,11 +17,16 @@ translation_of: /publications/
 
 <div class="publications">
 
+{% capture preprint_count %}{% bibliography_count --query @*[status=preprint] %}{% endcapture %}
+{% assign preprint_count = preprint_count | plus: 0 %}
+
+{% if preprint_count > 0 %}
 <h2 class="publication-section-title">출판 전 논문 (Preprints)</h2>
 
 {% bibliography --group_by none --query @*[status=preprint] %}
+{% endif %}
 
-<h2 class="publication-section-title publication-section-title--peer-reviewed">학술지 게재 논문</h2>
+<h2 class="publication-section-title{% if preprint_count > 0 %} publication-section-title--peer-reviewed{% endif %}">학술지 게재 논문</h2>
 
 {% bibliography --query @*[status!=preprint] %}
 

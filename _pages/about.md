@@ -499,7 +499,7 @@ _styles: |
       </div>
     </a>
 
-    <a class="featured-paper" href="https://www.biorxiv.org/content/10.64898/2026.01.22.700871v1">
+    <a class="featured-paper" href="https://doi.org/10.1038/s43587-026-01221-z">
       <div class="featured-paper-figure">
         <img
           src="{{ '/assets/img/home/publications/jeong-2026-kidney-fig1-card.jpg' | relative_url }}"
@@ -509,9 +509,9 @@ _styles: |
       </div>
       <div class="featured-paper-body">
         <div class="featured-paper-meta">Kidney Aging · 2026</div>
-        <h3>A cross-species single-cell epigenome kidney atlas</h3>
+        <h3>A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease</h3>
         <p>Single-cell multi-omics maps cell-type-specific aging and disease-associated repair states across human and mouse kidneys.</p>
-        <div class="featured-paper-journal">Nature Aging · Accepted</div>
+        <div class="featured-paper-journal">Nature Aging</div>
       </div>
     </a>
 

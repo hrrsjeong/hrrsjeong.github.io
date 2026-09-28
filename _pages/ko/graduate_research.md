@@ -62,7 +62,7 @@ translation_of: /join/graduate-research/
       </p>
       <p class="graduate-opportunity-papers">
         <em>대표 논문:</em>
-        <a href="https://www.biorxiv.org/content/10.64898/2026.01.22.700871v1">Jeong et al., <em>Nature Aging</em>, 게재 승인, 2026</a>;
+        <a href="https://doi.org/10.1038/s43587-026-01221-z">Jeong et al., <em>Nature Aging</em>, 2026</a>;
         <a href="https://doi.org/10.1007/s11357-024-01450-3">Jeong et al., <em>GeroScience</em>, 2024</a>.
       </p>
     </div>
@@ -77,7 +77,7 @@ translation_of: /join/graduate-research/
       </p>
       <p class="graduate-opportunity-papers">
         <em>대표 논문:</em>
-        <a href="https://www.biorxiv.org/content/10.64898/2026.01.22.700871v1">Jeong et al., <em>Nature Aging</em>, 게재 승인, 2026</a>;
+        <a href="https://doi.org/10.1038/s43587-026-01221-z">Jeong et al., <em>Nature Aging</em>, 2026</a>;
         <a href="https://doi.org/10.1038/s41588-024-02051-8">Jeong et al., <em>Nature Genetics</em>, 2025</a>;
         <a href="https://doi.org/10.1093/nar/gkv1245">Jeong et al., <em>Nucleic Acids Research</em>, 2016</a>;
         <a href="https://doi.org/10.1038/s41598-019-42227-5">Jeong et al., <em>Scientific Reports</em>, 2019</a>.
