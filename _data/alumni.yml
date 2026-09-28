@@ -1,0 +1,17 @@
+- id: postdoctoral-researchers
+  title: Postdoctoral Researchers
+  members: []
+
+- id: graduate-students
+  title: Graduate Students
+  members: []
+
+- id: undergraduate-researchers
+  title: Undergraduate Researchers
+  members:
+    - name: Youngseo Lee
+      url: /people/youngseo-lee/
+    - name: Dongkyun Kang
+      url: /people/dongkyun-kang/
+    - name: Dayoung Ryu
+      url: /people/dayoung-ryu/

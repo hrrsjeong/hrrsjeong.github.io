@@ -139,6 +139,15 @@ _styles: |
   .team-alumni-section {
     margin-top: clamp(2.3rem, 5.5vw, 3.8rem);
   }
+  .team-alumni-group + .team-alumni-group {
+    margin-top: 1.75rem;
+  }
+  .team-alumni-group-title {
+    color: var(--global-text-color-light);
+    font-size: 0.96rem;
+    font-weight: 600;
+    margin: 0 0 0.8rem;
+  }
   .team-alumni-list {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));

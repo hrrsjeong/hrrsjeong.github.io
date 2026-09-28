@@ -56,9 +56,16 @@
   <div class="team-section-header">
     <h2 class="team-section-title" id="alumni-title">Alumni</h2>
   </div>
-  <ul class="team-alumni-list">
-    <li><a href="{{ '/people/youngseo-lee/' | prepend: language_prefix | relative_url }}">Youngseo Lee</a></li>
-    <li><a href="{{ '/people/dongkyun-kang/' | prepend: language_prefix | relative_url }}">Dongkyun Kang</a></li>
-    <li><a href="{{ '/people/dayoung-ryu/' | prepend: language_prefix | relative_url }}">Dayoung Ryu</a></li>
-  </ul>
+  {% for group in site.data.alumni %}
+    {% if group.members.size > 0 %}
+      <section class="team-alumni-group" aria-labelledby="alumni-{{ group.id }}-title">
+        <h3 class="team-alumni-group-title" id="alumni-{{ group.id }}-title">{{ group.title }}</h3>
+        <ul class="team-alumni-list">
+          {% for member in group.members %}
+            <li><a href="{{ member.url | prepend: language_prefix | relative_url }}">{{ member.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  {% endfor %}
 </section>
