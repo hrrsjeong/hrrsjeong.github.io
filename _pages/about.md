@@ -419,7 +419,7 @@ _styles: |
     {% for item in recent_news limit: 6 %}
       <li class="home-news-item">
         <time class="home-news-date" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%m/%d/%Y' }}</time>
-        <div class="home-news-copy">{{ item.content | strip_html | strip }}</div>
+        <div class="home-news-copy">{{ item.content | remove: '<p>' | remove: '</p>' | strip }}</div>
       </li>
     {% endfor %}
   </ol>
