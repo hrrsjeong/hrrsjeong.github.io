@@ -18,16 +18,6 @@ translation_of: /research/
     </p>
   </section>
 
-  <figure class="research-overview-figure research-wide">
-    <img
-      src="{{ '/assets/img/research/research-overview-diagram.png' | relative_url }}"
-      alt="영장류 진화, 인간 pangenome, 단일세포 후성유전체 데이터를 계산 및 AI 모델링으로 통합하여 뇌 진화와 질환, 집단 내 형질 다양성, 세포 노화와 복구 실패를 규명하는 Jeong Lab 연구 개요도"
-    >
-    <figcaption class="research-overview-caption">
-      영장류 비교유전체, 인간 pangenome, 단일세포 및 3D 후성유전체 데이터(왼쪽)를 알고리즘, 통계 모델, 유전체 AI(가운데)로 통합하여 뇌 조절 진화, 집단 내 형질 다양성, 세포 노화와 조직 복구 기전(오른쪽)을 연구합니다.
-    </figcaption>
-  </figure>
-
   <section class="research-questions research-wide" aria-labelledby="research-questions-title">
     <div class="research-questions-heading">
       <h2 id="research-questions-title">핵심 질문</h2>
@@ -37,7 +27,7 @@ translation_of: /research/
       <li>인간과 다른 영장류를 구분 짓는 유전체 재편성과 세포 유형별 조절 변화는 무엇이며, 왜 신경정신질환 취약성으로 이어지는가?</li>
       <li>하나의 reference genome이 담지 못하는 segmental duplication과 대규모 구조변이는 어떻게 개인 간 다양성과 새로운 중복 유전자를 만들어내는가?</li>
       <li>살아가는 동안 세포마다 축적되는 epimutation은 어떻게 세포 정체성을 약화시키고, 조직 복구 실패와 노화 관련 만성 질환으로 이어지는가?</li>
-      <li>유전체 서열과 3차원 후성유전체 정보가 세포 상태와 표현형으로 이어지는 규칙을 통계 모델과 AI로 어떻게 정량화하고 예측할 수 있는가?</li>
+      <li>통계 모델과 머신러닝으로 다중 스케일의 유전체 및 후성유전체 데이터를 어떻게 통합해 세포 상태와 질환 표현형을 설명할 수 있는가?</li>
     </ul>
   </section>
 
@@ -45,7 +35,7 @@ translation_of: /research/
     <article class="research-story" id="evolution">
       <div class="research-story-media">
         <div class="research-story-media-box">
-          <img src="{{ '/assets/img/research/epigenetic-evolution.png' | relative_url }}" alt="인간, 침팬지, 마카크 원숭이 뇌의 신경세포 및 희소돌기아교세포별 DNA 메틸화 진화 비교">
+          <img src="{{ '/assets/img/research/topic-01-primate-evolution.png' | relative_url }}" alt="인간, 침팬지, 마카크의 유전체 구조 비교와 뇌 세포 유형별 DNA 메틸화 진화 모식도">
         </div>
       </div>
       <div class="research-story-copy">
@@ -75,7 +65,7 @@ translation_of: /research/
     <article class="research-story research-story--reverse" id="diversity">
       <div class="research-story-media">
         <div class="research-story-media-box">
-          <img src="{{ '/assets/img/research/structurally-complex-regions.png' | relative_url }}" alt="구조변이와 segmental duplication이 집중된 복잡한 염색체 영역의 정렬 비교">
+          <img src="{{ '/assets/img/research/topic-02-structural-diversity.png' | relative_url }}" alt="인간 반수체 유전체 간 segmental duplication, 역위, 새로운 중복 유전자 출현을 보여주는 구조적 다양성 모식도">
         </div>
       </div>
       <div class="research-story-copy">
@@ -105,7 +95,7 @@ translation_of: /research/
     <article class="research-story" id="aging">
       <div class="research-story-media">
         <div class="research-story-media-box">
-          <img src="{{ '/assets/img/research/epigenetic-aging.png' | relative_url }}" alt="인간과 생쥐 신장의 세포 유형별 단일세포 후성유전체 지도">
+          <img src="{{ '/assets/img/research/topic-03-cellular-aging.png' | relative_url }}" alt="체세포 epimutation 축적에 따른 세포 정체성 약화와 노화 및 조직 복구 실패 경로 모식도">
         </div>
       </div>
       <div class="research-story-copy">
@@ -135,16 +125,16 @@ translation_of: /research/
       <div class="research-story-media">
         <div class="research-method-stack" aria-label="주요 계산 및 AI 방법론 분야">
           <div class="research-method-card">
-            <h4>Pangenome &amp; Structural Variation Algorithms</h4>
-            <p>반복 서열이 밀집된 segmental duplication, 복합 구조변이, 개인별 genome assembly 간 차이를 염기서열 수준에서 정밀 분석하는 알고리즘</p>
+            <h4>Complex Genome &amp; Structural Variation Analysis</h4>
+            <p>반복 서열이 밀집된 segmental duplication, 복합 복제수 변이, 개인별 haplotype assembly 간 구조적 차이를 정밀 규명하는 계산 분석 방법론</p>
           </div>
           <div class="research-method-card">
-            <h4>Single-Cell &amp; 3D Epigenome Modeling</h4>
-            <p>희소한 single-cell DNA methylation과 3D 염색질 구조, 다중 오믹스 데이터를 정량적으로 통합하고 세포 상태 변화를 추론하는 통계 모델</p>
+            <h4>Single-Cell &amp; Multi-Omic Statistical Modeling</h4>
+            <p>희소한 single-cell DNA methylation과 3D 염색질, 다중 오믹스 데이터를 정량적으로 통합하고 세포 상태 변화를 추론하는 통계 모델</p>
           </div>
           <div class="research-method-card">
-            <h4>Machine Learning &amp; Genomic AI</h4>
-            <p>DNA 서열 변이와 염색질 맥락이 세포 유형별 유전자 조절과 표현형으로 이어지는 규칙을 학습하고 예측하는 딥러닝 및 foundation model 연구</p>
+            <h4>Machine Learning &amp; AI for Genomics</h4>
+            <p>유전체 및 후성유전체 변이가 세포 유형별 조절, 노화 경로, 질환 위험으로 이어지는 양상을 정량화하고 예측하는 머신러닝 및 AI 모델링</p>
           </div>
         </div>
       </div>
@@ -152,15 +142,15 @@ translation_of: /research/
         <p class="research-story-topic">04 / Methods &amp; AI</p>
         <h3>계산 방법론과 AI 모델링</h3>
         <p>
-          구조가 복잡한 유전체 영역과 대규모 single-cell multi-omics 데이터를 정확하게 해석하기 위한 통계 모델과 생물정보학 알고리즘을 개발합니다. 반복 서열과 reference bias로 인한 왜곡을 보정하여 실제 생물학적 변이를 분리하고, 단일세포 후성유전체 데이터로부터 세포 상태 전이나 체세포 epimutation에 기반한 세포 계통 관계(clonal lineage) 등을 추론하는 계산 프레임워크를 구축합니다.
+          구조가 복잡한 유전체 영역과 대규모 single-cell multi-omics 데이터를 정확하게 해석하기 위한 통계 모델과 계산 방법론을 개발합니다. 반복 서열과 reference bias로 인한 왜곡을 보정하여 실제 생물학적 변이를 분리하고, 단일세포 후성유전체 데이터로부터 세포 상태 전이나 체세포 epimutation에 기반한 세포 계통 관계(clonal lineage) 등을 추론하는 분석 프레임워크를 구축합니다.
         </p>
         <p>
-          이와 함께 유전체 서열과 세포 유형별 유전자 조절, 진화적 보존성, 질환 변이의 기능적 영향을 연결하는 머신러닝 및 AI 모델을 연구하며, 개발한 방법론을 재현 가능한 오픈소스 도구로 공개합니다.
+          이와 함께 다중 오믹스 데이터를 통합하고 유전체 및 후성유전체 변이를 세포 상태, 노화, 질환 표현형과 연결하는 머신러닝 및 AI 모델을 연구하며, 개발한 분석 도구를 재현 가능한 오픈소스 소프트웨어로 공개합니다.
         </p>
         <div class="research-focus-tags">
-          <span class="research-focus-tag">Pangenome bioinformatics</span>
+          <span class="research-focus-tag">Complex locus analysis</span>
           <span class="research-focus-tag">Single-cell statistical models</span>
-          <span class="research-focus-tag">Sequence-to-regulation AI</span>
+          <span class="research-focus-tag">Multi-omic ML &amp; AI</span>
           <span class="research-focus-tag">Open-source tools</span>
         </div>
         <p class="research-story-papers">

@@ -265,9 +265,9 @@ _styles: |
     </div>
     <div class="join-track-card">
       <p class="join-track-label">CS, Statistics, Math &amp; AI</p>
-      <h3>Designing Algorithms and AI for Complex Genomes</h3>
+      <h3>Statistical Modeling and AI for Complex Genomes</h3>
       <p>
-        Researchers with quantitative backgrounds go beyond running existing bioinformatics tools to design new algorithms for repetitive genome architectures, statistical models for single-cell and 3D epigenomes, and machine learning or foundation models for gene regulation.
+        Researchers with quantitative backgrounds go beyond running standard bioinformatics pipelines to develop analytical methods for structurally complex genome regions, statistical models for single-cell and 3D epigenomes, and machine learning and AI models for multi-omic integration, aging, and disease.
       </p>
     </div>
   </div>

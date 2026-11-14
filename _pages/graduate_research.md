@@ -185,10 +185,10 @@ _styles: |
     <div class="graduate-opportunity-direction">
       <h3>4. Computational methods and AI modeling</h3>
       <p>
-        We build algorithms and statistical models for sequence-resolved pangenome analysis, sparse single-cell and 3D epigenome integration, and cellular state inference. We also develop machine learning and genomic foundation model approaches that learn how DNA sequence variation shapes cell-type-specific epigenomic regulation and phenotypes.
+        We develop computational methods and statistical models for complex structural variation across haplotype assemblies, sparse single-cell and 3D epigenome integration, and cellular state inference. We also apply and build machine learning and AI models that integrate multi-omic variation to study cell-type regulation, aging, and disease.
       </p>
       <p>
-        <strong>Example topics:</strong> algorithms for repetitive genome regions, statistical modeling for single-cell and 3D epigenomes, deep learning and AI models of sequence-to-regulation grammar, reproducible open-source bioinformatics tools
+        <strong>Example topics:</strong> analytical methods for repetitive genome regions, statistical modeling for single-cell and 3D epigenomes, multi-omic machine learning and AI modeling, reproducible open-source bioinformatics tools
       </p>
       <p class="graduate-opportunity-papers">
         <em>Representative papers:</em>

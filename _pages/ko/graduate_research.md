@@ -71,10 +71,10 @@ translation_of: /join/graduate-research/
     <div class="graduate-opportunity-direction">
       <h3>4. 계산 방법론과 AI 모델링</h3>
       <p>
-        반복 서열이 밀집된 pangenome 구조를 분해하는 알고리즘, 대규모 single-cell 및 3D multi-omics 데이터를 통합하고 세포 상태 변화를 추론하는 통계 모델을 개발합니다. 아울러 유전체 서열 변이와 염색질 맥락이 세포 유형별 유전자 조절 및 표현형으로 이어지는 규칙을 학습하는 머신러닝과 genomic AI / foundation model을 연구합니다.
+        복잡한 구조변이와 반복 서열 영역을 정밀 분석하는 계산 방법론, 대규모 single-cell 및 3D multi-omics 데이터를 통합하고 세포 상태 변화를 추론하는 통계 모델을 개발합니다. 아울러 다중 오믹스 데이터를 통합하여 유전체 및 후성유전체 변이가 세포 상태, 노화, 질환으로 이어지는 과정을 정량화하는 머신러닝 및 AI 모델링을 수행합니다.
       </p>
       <p>
-        <strong>세부 주제 예시:</strong> 복잡 반복 서열 분석 알고리즘, 단일세포 및 3D 후성유전체 통계 모델링, 서열 기반 유전자 조절 예측 AI 모델, 재현 가능한 오픈소스 생물정보학 도구 개발
+        <strong>세부 주제 예시:</strong> 복잡 반복 서열 분석 방법론, 단일세포 및 3D 후성유전체 통계 모델링, 다중 오믹스 통합 머신러닝 및 AI 모델링, 재현 가능한 오픈소스 생물정보학 도구 개발
       </p>
       <p class="graduate-opportunity-papers">
         <em>대표 논문:</em>

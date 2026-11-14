@@ -26,7 +26,7 @@ _styles: |
     width: 100%;
   }
   .research-intro {
-    margin: 0.35rem auto clamp(2.8rem, 6vw, 4.4rem);
+    margin: 0.35rem auto clamp(2.2rem, 4.5vw, 3.2rem);
     max-width: 55rem;
     width: 100%;
   }
@@ -45,27 +45,6 @@ _styles: |
     line-height: 1.76;
     margin: 0;
     max-width: 53rem;
-  }
-  .research-overview-figure {
-    margin: 0 auto clamp(3.4rem, 7vw, 5.2rem);
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.28rem;
-    background: #ffffff;
-    padding: clamp(1rem, 2.5vw, 1.6rem);
-    box-shadow: 0 0.35rem 1.2rem rgba(49, 45, 70, 0.05);
-  }
-  .research-overview-figure img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  .research-overview-caption {
-    margin: 0.9rem 0 0;
-    padding-top: 0.8rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-    color: #4d4a54;
-    font-size: 0.86rem;
-    line-height: 1.58;
   }
   .research-questions {
     border-bottom: 1px solid var(--global-divider-color);
@@ -331,16 +310,6 @@ _styles: |
     </p>
   </section>
 
-  <figure class="research-overview-figure research-wide">
-    <img
-      src="{{ '/assets/img/research/research-overview-diagram.png' | relative_url }}"
-      alt="Overview of Jeong Lab research integrating primate comparative genomes, human pangenomes, and single-cell epigenomes through computational and AI modeling to study brain evolution, trait diversity, and cellular aging"
-    >
-    <figcaption class="research-overview-caption">
-      Integrating primate comparative genomics, human pangenomes, and single-cell 3D epigenomes (left) through graph algorithms, statistical modeling, and genomic AI (center) to uncover mechanisms of brain evolution, human trait diversity, and cellular aging and tissue repair (right).
-    </figcaption>
-  </figure>
-
   <section class="research-questions research-wide" aria-labelledby="research-questions-title">
     <div class="research-questions-heading">
       <h2 id="research-questions-title">Core Questions</h2>
@@ -350,7 +319,7 @@ _styles: |
       <li>What genomic rearrangements and cell-type regulatory shifts shaped the human brain, and why do they confer vulnerability to neuropsychiatric disorders?</li>
       <li>How do segmental duplications and large structural variants reshape human diversity and generate newly duplicated genes beyond a single reference genome?</li>
       <li>How do somatic epimutations accumulate over a lifetime to erode cell identity, impair tissue repair, and drive age-associated chronic disease?</li>
-      <li>How can statistical and AI models learn the sequence and 3D chromatin rules that translate genomic variation into cell-type-specific phenotypes?</li>
+      <li>How can statistical models and machine learning integrate multi-scale genomic and epigenomic data to explain cellular states and disease phenotypes?</li>
     </ul>
   </section>
 
@@ -358,7 +327,7 @@ _styles: |
     <article class="research-story" id="evolution">
       <div class="research-story-media">
         <div class="research-story-media-box">
-          <img src="{{ '/assets/img/research/epigenetic-evolution.png' | relative_url }}" alt="Cell-type-resolved DNA methylation trajectories across human, chimpanzee, and macaque brains">
+          <img src="{{ '/assets/img/research/topic-01-primate-evolution.png' | relative_url }}" alt="Comparative primate genome synteny and cell-type-resolved brain DNA methylation divergence across human, chimpanzee, and macaque">
         </div>
       </div>
       <div class="research-story-copy">
@@ -388,7 +357,7 @@ _styles: |
     <article class="research-story research-story--reverse" id="diversity">
       <div class="research-story-media">
         <div class="research-story-media-box">
-          <img src="{{ '/assets/img/research/structurally-complex-regions.png' | relative_url }}" alt="Alignment of a structurally complex chromosome region with inversions and segmental duplications">
+          <img src="{{ '/assets/img/research/topic-02-structural-diversity.png' | relative_url }}" alt="Haplotype-resolved structural variation, segmental duplications, inversions, and newly duplicated genes across human genomes">
         </div>
       </div>
       <div class="research-story-copy">
@@ -418,7 +387,7 @@ _styles: |
     <article class="research-story" id="aging">
       <div class="research-story-media">
         <div class="research-story-media-box">
-          <img src="{{ '/assets/img/research/epigenetic-aging.png' | relative_url }}" alt="Single-cell DNA methylome maps across human and mouse kidney cell types">
+          <img src="{{ '/assets/img/research/topic-03-cellular-aging.png' | relative_url }}" alt="Somatic epimutations, erosion of cell-type epigenetic identity, and single-cell trajectories toward aging and failed tissue repair">
         </div>
       </div>
       <div class="research-story-copy">
@@ -448,16 +417,16 @@ _styles: |
       <div class="research-story-media">
         <div class="research-method-stack" aria-label="Core computational method areas">
           <div class="research-method-card">
-            <h4>Pangenome &amp; Structural Variation Algorithms</h4>
-            <p>Sequence-resolved decomposition of segmental duplications, multi-allelic copy-number polymorphisms, and non-reference loci across haplotype assemblies.</p>
+            <h4>Complex Genome &amp; Structural Variation Analysis</h4>
+            <p>Computational approaches for resolving segmental duplications, multi-allelic copy-number variation, and complex rearrangements across haplotype assemblies.</p>
           </div>
           <div class="research-method-card">
-            <h4>Single-Cell &amp; 3D Epigenome Modeling</h4>
-            <p>Probabilistic models for sparse single-cell methylomes, 3D chromatin conformation, and multi-omic cellular state inference.</p>
+            <h4>Single-Cell &amp; Multi-Omic Statistical Modeling</h4>
+            <p>Probabilistic and statistical frameworks for sparse single-cell methylomes, 3D chromatin, and quantitative inference of cellular state transitions.</p>
           </div>
           <div class="research-method-card">
-            <h4>Machine Learning &amp; Genomic AI</h4>
-            <p>Deep learning and foundation model approaches to learn sequence-to-epigenome regulatory grammar across species, individuals, and cell states.</p>
+            <h4>Machine Learning &amp; AI for Genomics</h4>
+            <p>Integrative machine learning and AI modeling to link genomic and epigenomic variation with cell-type regulation, aging trajectories, and disease risk.</p>
           </div>
         </div>
       </div>
@@ -465,15 +434,15 @@ _styles: |
         <p class="research-story-topic">04 / Methods &amp; AI</p>
         <h3>Computational Methods and AI</h3>
         <p>
-          Extracting accurate biological signal from structurally complex genomes and sparse single-cell multi-omics requires tailored statistical and algorithmic frameworks. We design computational methods to resolve repetitive genomic architectures, separate biological variation from reference and technical biases, and infer cellular state transitions as well as somatic epimutation-based clonal lineages from single-cell epigenomic data.
+          Extracting accurate biological signal from structurally complex genomes and sparse single-cell multi-omics requires tailored statistical and computational frameworks. We develop analytical methods to resolve repetitive genomic regions, separate true biological variation from reference and technical biases, and infer cellular state transitions as well as somatic epimutation-based clonal lineages from single-cell epigenomic data.
         </p>
         <p>
-          In parallel, we develop machine learning and genomic AI models that learn how DNA sequence variation and chromatin context govern cell-type-specific regulation across evolution, aging, and disease, releasing our methods as reproducible open-source software.
+          In parallel, we apply and develop machine learning and AI models to integrate multi-omic datasets and connect genomic and epigenomic variation with cellular states, aging, and disease, sharing our methods as reproducible open-source tools.
         </p>
         <div class="research-focus-tags">
-          <span class="research-focus-tag">Pangenome bioinformatics</span>
+          <span class="research-focus-tag">Complex locus analysis</span>
           <span class="research-focus-tag">Single-cell statistical models</span>
-          <span class="research-focus-tag">Sequence-to-regulation AI</span>
+          <span class="research-focus-tag">Multi-omic ML &amp; AI</span>
           <span class="research-focus-tag">Open-source tools</span>
         </div>
         <p class="research-story-papers">

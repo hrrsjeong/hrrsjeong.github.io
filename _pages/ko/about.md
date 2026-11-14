@@ -81,11 +81,11 @@ translation_of: /
       <div class="home-pillar-index">04 / Methods &amp; AI</div>
       <h3>계산 방법론과 AI 모델링</h3>
       <p>
-        반복 서열이 밀집된 유전체 구조를 분석하는 알고리즘, 대규모 단일세포 및 3D 후성유전체 데이터를 통합하는 통계 모델, 유전체 서열과 조절의 관계를 학습하는 머신러닝 및 AI 모델을 개발합니다.
+        복잡한 반복 서열 영역을 정밀 분석하는 방법론, 대규모 단일세포 및 3D 후성유전체 데이터를 통합하는 통계 모델, 다중 오믹스 변이와 세포 상태 및 질환을 연결하는 머신러닝 및 AI 모델을 연구합니다.
       </p>
       <div class="home-pillar-tags">
         <span class="home-pillar-tag">Statistical modeling</span>
-        <span class="home-pillar-tag">Genomic AI</span>
+        <span class="home-pillar-tag">Multi-omic ML &amp; AI</span>
         <span class="home-pillar-tag">Bioinformatics tools</span>
       </div>
     </a>

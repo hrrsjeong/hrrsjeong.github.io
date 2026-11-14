@@ -585,11 +585,11 @@ _styles: |
       <div class="home-pillar-index">04 / Methods &amp; AI</div>
       <h3>Computational Methods and AI</h3>
       <p>
-        Developing algorithms for repetitive genome architectures, statistical models for single-cell and 3D epigenome integration, and machine learning and AI models linking sequence to cell-type regulation.
+        Developing analytical methods for complex genome regions, statistical models for single-cell and 3D epigenome integration, and machine learning and AI models connecting multi-omics to cellular states and disease.
       </p>
       <div class="home-pillar-tags">
         <span class="home-pillar-tag">Statistical modeling</span>
-        <span class="home-pillar-tag">Genomic AI</span>
+        <span class="home-pillar-tag">Multi-omic ML &amp; AI</span>
         <span class="home-pillar-tag">Bioinformatics tools</span>
       </div>
     </a>
