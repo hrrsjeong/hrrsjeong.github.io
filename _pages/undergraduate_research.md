@@ -2,7 +2,7 @@
 layout: page
 permalink: /join/undergraduate-research/
 title: GIST Undergraduate Research Opportunities
-description: Undergraduate research opportunities in computational genomics and evolutionary medicine at GIST.
+description: Undergraduate research opportunities in computational genomics, epigenomics, and genomic AI at GIST.
 nav: false
 _styles: |
   .undergraduate-opportunity {
@@ -85,74 +85,65 @@ _styles: |
 
 <article class="undergraduate-opportunity">
   <p class="undergraduate-opportunity-lead">
-    The <strong>Computational Genomics &amp; Evolutionary Medicine Lab (PI: Hyeonsoo Jeong)</strong> welcomes undergraduate students interested in gaining experience in genomic data analysis and computational biology.
+    The <strong>Computational Genomics &amp; Evolutionary Medicine Lab (PI: Hyeonsoo Jeong)</strong> welcomes undergraduate students interested in hands-on research in computational genomics, epigenomics, and quantitative biology.
   </p>
 
   <p class="undergraduate-opportunity-intro">
-    We study genome structure and epigenomic regulation across species and cell types to understand human evolution, aging, and neurological disorders. We are a <strong>100% dry lab</strong> and do not conduct wet-lab experiments. Our work analyzes large genomic and multi-omics datasets using statistical modeling, machine learning, and AI to uncover complex biological patterns.
+    We study how genomes and epigenomes evolve across primates, diversify across human populations, and change across individual cells during aging and disease, combining long-read pangenomes, single-cell multi-omics, and statistical and AI modeling.
   </p>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-research-title">
     <h2 id="undergraduate-research-title">Research opportunities</h2>
-    <p>Depending on their interests and experience, undergraduate researchers can participate in:</p>
+    <p>Depending on background and interests, undergraduate researchers can participate in:</p>
     <ul>
-      <li>Comparative genomics of humans and other primates</li>
-      <li>Analysis of complex genome structure and structural variation</li>
-      <li>Epigenomics and gene regulation research</li>
-      <li>Single-cell and multi-omics data analysis in aging and disease</li>
-      <li>Pattern discovery and prediction in genomic data using machine learning and AI</li>
-      <li>Development of bioinformatics tools and reproducible workflows</li>
+      <li>Comparative genomics and brain epigenome evolution across humans and primates</li>
+      <li>Population-scale pangenomes, segmental duplications, and structural variation</li>
+      <li>Single-cell and 3D epigenomic analysis of cellular aging, cell identity, and tissue repair</li>
+      <li>Machine learning and AI models linking genomic sequence to gene regulation</li>
+      <li>Development of reproducible bioinformatics workflows and visualization tools</li>
     </ul>
     <p>
-      Students with limited programming or bioinformatics experience begin by reading the literature and learning about the data. They then gradually learn to work in Linux, analyze data with Python or R, create visualizations, and interpret research results.
+      Students who are newer to programming start by discussing key papers and learning Linux, Python or R, data visualization, and genomic data structures step by step.
     </p>
     <p class="undergraduate-opportunity-note">
-      Students with sufficient programming, statistics, or machine learning experience may contribute directly to data analysis and method development in ongoing projects. Students who make substantive contributions may participate in presentations and manuscript preparation, and may qualify for coauthorship according to their contributions.
+      Students with strong programming, statistics, or machine learning backgrounds can contribute directly to ongoing data analysis and method development projects, with opportunities for conference presentations and coauthorship based on substantive contributions.
     </p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-applicants-title">
     <h2 id="undergraduate-applicants-title">Who should apply?</h2>
-    <p>We welcome students who:</p>
+    <p>We welcome undergraduates from both biology/biomedical majors and computer science, AI, statistics, mathematics, or related majors who:</p>
     <ul>
-      <li>Are interested in genomics, evolution, aging, or disease biology</li>
-      <li>Want to analyze real, large-scale biological datasets</li>
-      <li>Are interested in the intersection of life sciences with computer science, statistics, or AI</li>
-      <li>Want to develop new analytical methods or bioinformatics tools</li>
-      <li>Can commit to participating consistently over an agreed period</li>
+      <li>Are curious about human evolution, genetic diversity, cellular aging, or disease</li>
+      <li>Want hands-on experience analyzing real, large-scale sequencing and single-cell datasets</li>
+      <li>Enjoy connecting quantitative/computational thinking with biological questions</li>
+      <li>Can participate consistently over an agreed semester or vacation period</li>
     </ul>
-    <p>
-      Programming experience is helpful but not required. Alongside current skills, we value a willingness to learn, consistent effort, and an interest in connecting data with biological questions.
-    </p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-training-title">
-    <h2 id="undergraduate-training-title">Training</h2>
-    <p>Undergraduate researchers can learn:</p>
+    <h2 id="undergraduate-training-title">What you will learn</h2>
     <ul>
-      <li>Linux-based computational research</li>
-      <li>Data analysis using Python or R</li>
-      <li>Processing and interpretation of genomic and epigenomic data</li>
-      <li>Biological applications of statistical modeling and machine learning</li>
-      <li>Building reproducible analysis workflows</li>
-      <li>Reading papers, visualizing results, and presenting research</li>
-      <li>Organizing research findings and preparing manuscripts</li>
+      <li>Linux and high-performance computing workflows</li>
+      <li>Quantitative data analysis and visualization in Python or R</li>
+      <li>Processing and biological interpretation of long-read genomic and single-cell epigenomic data</li>
+      <li>Statistical modeling and machine learning applications in genomics</li>
+      <li>Critical reading of scientific literature and clear research presentation</li>
     </ul>
-    <p>Regular meetings also provide opportunities to discuss research progress and future career plans.</p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-apply-title">
     <h2 id="undergraduate-apply-title">How to apply</h2>
     <p>Please email the following information:</p>
     <ul>
-      <li>A brief introduction</li>
-      <li>Research interests</li>
-      <li>Relevant coursework, programming, or research experience</li>
-      <li>Your availability and expected duration of participation</li>
+      <li>A brief introduction and major/year</li>
+      <li>Research topics that interest you</li>
+      <li>Relevant coursework, coding, or research experience</li>
+      <li>Available start date and expected duration</li>
       <li>Academic transcript</li>
     </ul>
     <p>
-      If you have programming experience, you may optionally include your GitHub profile, analysis code, or materials from previous projects. Applications are accepted on a rolling basis. After reviewing your materials, we will arrange an individual meeting to discuss possible projects and how you can participate.
+      Optionally, you may include a GitHub link or previous coursework/project code. Applications are reviewed on a rolling basis, followed by an individual meeting to discuss potential projects.
     </p>
     <a
       class="undergraduate-opportunity-cta"

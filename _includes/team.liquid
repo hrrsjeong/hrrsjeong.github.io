@@ -3,8 +3,8 @@
     <img src="{{ '/assets/img/IMG_9534.jpg' | relative_url }}" alt="Hyeonsoo Harris Jeong">
     <div class="principal-copy">
       <p class="principal-label">Principal Investigator</p>
-      <h2 class="principal-name" id="principal-investigator-title">Hyeonsoo “Harris” Jeong</h2>
-      <div class="principal-role">Assistant Professor · Department of Life Sciences · GIST</div>
+      <h2 class="principal-name" id="principal-investigator-title">{% if language == 'ko' %}정현수{% else %}Hyeonsoo “Harris” Jeong{% endif %}</h2>
+      <div class="principal-role">Assistant Professor, Department of Life Sciences, GIST</div>
       <a class="principal-link" href="{{ '/people/hyeonsoo-jeong/' | prepend: language_prefix | relative_url }}">View profile →</a>
     </div>
   </div>
@@ -28,7 +28,7 @@
         >
       </div>
       <div>
-        <h3 class="team-member-name">Jaewoong Lee</h3>
+        <h3 class="team-member-name">{% if language == 'ko' %}이재웅{% else %}Jaewoong Lee{% endif %}</h3>
         <p class="team-member-role">Postdoctoral Researcher</p>
         <a class="team-member-link" href="{{ '/people/jaewoong-lee/' | prepend: language_prefix | relative_url }}">View profile →</a>
       </div>
@@ -43,7 +43,7 @@
         >
       </div>
       <div>
-        <h3 class="team-member-name">Hyeongwoo Choi</h3>
+        <h3 class="team-member-name">{% if language == 'ko' %}최형우{% else %}Hyeongwoo Choi{% endif %}</h3>
         <p class="team-member-role">Postdoctoral Researcher</p>
         <a class="team-member-link" href="{{ '/people/hyeongwoo-choi/' | prepend: language_prefix | relative_url }}">View profile →</a>
       </div>
@@ -62,7 +62,7 @@
         <h3 class="team-alumni-group-title" id="alumni-{{ group.id }}-title">{{ group.title }}</h3>
         <ul class="team-alumni-list">
           {% for member in group.members %}
-            <li><a href="{{ member.url | prepend: language_prefix | relative_url }}">{{ member.name }}</a></li>
+            <li><a href="{{ member.url | prepend: language_prefix | relative_url }}">{% if language == 'ko' and member.name_ko %}{{ member.name_ko }}{% else %}{{ member.name }}{% endif %}</a></li>
           {% endfor %}
         </ul>
       </section>

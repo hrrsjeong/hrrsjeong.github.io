@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /ko/people/hyeonsoo-jeong/
-title: Hyeonsoo "Harris" Jeong
+title: 정현수
 description: Principal Investigator
 nav: false
 lang: ko

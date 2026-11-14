@@ -81,7 +81,18 @@ for en, ko in pairs.items():
     if pages[0].styles and en != '/404.html':
         assert ''.join(pages[0].styles).strip() == ''.join(pages[1].styles).strip(), (en, 'style mismatch')
     if en.startswith('/people/'):
-        assert main_text(output(en)) == main_text(output(ko)), (en, 'Team and profile content must stay in English')
+        en_text = main_text(output(en)).replace('Hyeonsoo “Harris” Jeong', 'Hyeonsoo "Harris" Jeong')
+        ko_text = main_text(output(ko)).replace('Hyeonsoo “Harris” Jeong', 'Hyeonsoo "Harris" Jeong')
+        for en_name, ko_name in [
+            ('Hyeonsoo "Harris" Jeong', '정현수'),
+            ('Jaewoong Lee', '이재웅'),
+            ('Hyeongwoo Choi', '최형우'),
+            ('Youngseo Lee', '이영서'),
+            ('Dongkyun Kang', '강동균'),
+            ('Dayoung Ryu', '류다영'),
+        ]:
+            ko_text = ko_text.replace(ko_name, en_name)
+        assert en_text == ko_text, (en, 'Team and profile body content must stay in English aside from member names')
         assert re.search(r'<div class="post"[^>]*\blang="en"', output(ko).read_text()), ko
 
 for lang, prefix in [('en', ''), ('ko', '/ko')]:

@@ -2,7 +2,7 @@
 layout: home
 title: Home
 permalink: /
-description: The Jeong Lab studies genome structure and epigenetic regulation across evolution, aging, and neurological disease.
+description: The Jeong Lab at GIST studies genome evolution, complex structural diversity, and single-cell epigenetic aging and disease using pangenomes, multi-omics, and AI.
 _styles: |
   .lab-home {
     --home-accent: #806986;
@@ -43,9 +43,9 @@ _styles: |
     inset: 0;
     background: linear-gradient(
       to right,
-      rgba(244, 242, 237, 0.82) 0%,
-      rgba(244, 242, 237, 0.34) 31%,
-      rgba(244, 242, 237, 0) 50%
+      rgba(244, 242, 237, 0.88) 0%,
+      rgba(244, 242, 237, 0.42) 34%,
+      rgba(244, 242, 237, 0) 54%
     );
     content: "";
     pointer-events: none;
@@ -58,6 +58,14 @@ _styles: |
     color: #3f3a46;
     text-align: left;
     transform: translateY(-50%);
+  }
+  .home-hero-eyebrow {
+    margin: 0 0 0.45rem;
+    color: #5d4c66;
+    font-size: clamp(0.68rem, 1.05vw, 0.8rem);
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
   }
   .home-hero-title {
     margin: 0;
@@ -74,20 +82,32 @@ _styles: |
   }
   .home-intro {
     max-width: 57rem;
-    margin: clamp(2.8rem, 6vw, 5rem) auto;
+    margin: clamp(2.6rem, 5.5vw, 4.4rem) auto clamp(2.8rem, 5.5vw, 4.4rem);
     width: 100%;
+  }
+  .home-intro-heading {
+    color: var(--global-text-color);
+    font-size: clamp(1.55rem, 3.2vw, 2.25rem);
+    font-weight: 640;
+    letter-spacing: -0.03em;
+    line-height: 1.22;
+    margin: 0 0 1.15rem;
   }
   .home-intro p {
     color: var(--global-text-color);
-    font-size: clamp(1.03rem, 1.5vw, 1.16rem);
+    font-size: clamp(1rem, 1.45vw, 1.11rem);
     line-height: 1.78;
+    margin: 0 0 1rem;
+  }
+  .home-intro p:last-of-type {
+    color: var(--global-text-color-light);
     margin-bottom: 0;
   }
   .home-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 0.7rem;
-    margin-top: 1.7rem;
+    margin-top: 1.65rem;
   }
   .home-action {
     display: inline-flex;
@@ -95,7 +115,7 @@ _styles: |
     min-height: 2.75rem;
     border: 1px solid var(--home-accent-dark);
     border-radius: 0.15rem;
-    padding: 0.65rem 1rem;
+    padding: 0.65rem 1.05rem;
     font-size: 0.92rem;
     font-weight: 650;
     transition: background-color 0.15s ease, color 0.15s ease;
@@ -122,13 +142,16 @@ _styles: |
     color: #fff;
     background: var(--home-accent-dark);
   }
+  .home-pillars,
   .recent-news,
   .featured-publications {
     border-top: 1px solid var(--global-divider-color);
     padding-top: 2.1rem;
   }
+  .home-pillars,
+  .featured-publications,
   .recent-news {
-    margin-bottom: clamp(3rem, 6vw, 4.8rem);
+    margin-bottom: clamp(3rem, 6vw, 4.6rem);
   }
   .home-section-header {
     display: flex;
@@ -138,7 +161,7 @@ _styles: |
     margin-bottom: 1.35rem;
   }
   .home-section-header h2 {
-    font-size: clamp(1.55rem, 3vw, 2.05rem);
+    font-size: clamp(1.5rem, 2.8vw, 1.98rem);
     font-weight: 600;
     letter-spacing: -0.025em;
     margin: 0;
@@ -148,6 +171,66 @@ _styles: |
     font-size: 0.9rem;
     font-weight: 650;
     white-space: nowrap;
+  }
+  .home-pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .home-pillar-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.2rem;
+    padding: 1.3rem 1.35rem 1.25rem;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .home-pillar-card:hover,
+  .home-pillar-card:focus {
+    border-color: var(--home-accent);
+    color: var(--global-text-color);
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+  .home-pillar-index {
+    color: var(--home-accent-dark);
+    font-size: 0.74rem;
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.45rem;
+  }
+  .home-pillar-card h3 {
+    color: var(--global-text-color);
+    font-size: 1.12rem;
+    font-weight: 650;
+    letter-spacing: -0.015em;
+    line-height: 1.32;
+    margin: 0 0 0.55rem;
+  }
+  .home-pillar-card p {
+    color: var(--global-text-color-light);
+    font-size: 0.91rem;
+    line-height: 1.62;
+    margin: 0;
+  }
+  .home-pillar-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+    padding-top: 0.95rem;
+  }
+  .home-pillar-tag {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.18rem;
+    padding: 0.14rem 0.46rem;
+    color: var(--global-text-color-light);
+    font-size: 0.76rem;
+    font-weight: 560;
+    line-height: 1.4;
   }
   .featured-publication-actions {
     align-items: center;
@@ -315,6 +398,32 @@ _styles: |
     font-size: 0.82rem;
     font-weight: 600;
   }
+  .home-join-callout {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.22rem;
+    background: var(--global-card-bg-color);
+    padding: clamp(1.35rem, 3vw, 1.9rem) clamp(1.35rem, 3.2vw, 2.1rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  .home-join-callout h2 {
+    font-size: clamp(1.2rem, 2.2vw, 1.45rem);
+    font-weight: 630;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.4rem;
+  }
+  .home-join-callout p {
+    color: var(--global-text-color-light);
+    font-size: 0.94rem;
+    line-height: 1.62;
+    margin: 0;
+    max-width: 40rem;
+  }
+  .home-join-callout .home-action {
+    flex-shrink: 0;
+  }
   html[data-theme="dark"] .lab-home {
     --home-accent: #b29cb6;
     --home-accent-dark: #b29cb6;
@@ -340,6 +449,15 @@ _styles: |
       right: 0.55rem;
     }
   }
+  @media (max-width: 760px) {
+    .home-pillar-grid {
+      grid-template-columns: 1fr;
+    }
+    .home-join-callout {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
   @media (max-width: 620px) {
     .home-hero {
       aspect-ratio: 2 / 1;
@@ -350,7 +468,11 @@ _styles: |
     }
     .home-hero-copy {
       left: 0.8rem;
-      width: 43%;
+      width: 46%;
+    }
+    .home-hero-eyebrow {
+      font-size: 0.56rem;
+      margin-bottom: 0.25rem;
     }
     .home-hero-title {
       font-size: clamp(0.72rem, 3.25vw, 0.84rem);
@@ -391,6 +513,7 @@ _styles: |
 
 <section class="home-hero home-wide" aria-label="Jeong Lab research identity">
   <div class="home-hero-copy">
+    <p class="home-hero-eyebrow">GIST / Life Sciences</p>
     <h1 class="home-hero-title">
       <span>Computational Genomics</span>
       <span>Evolutionary Medicine</span>
@@ -398,9 +521,13 @@ _styles: |
   </div>
 </section>
 
-<section class="home-intro" aria-label="About the Jeong Lab">
+<section class="home-intro" aria-labelledby="home-intro-heading">
+  <h2 class="home-intro-heading" id="home-intro-heading">Genome Evolution, Diversity, and Cellular Aging</h2>
   <p>
-    At the Jeong Lab, we examine genome structure and epigenetic regulation across species and cell types to better understand human evolution, aging, and neurological disorders. We combine comparative genomics with long-read sequencing and single-cell multi-omics data to resolve complex genomic regions and characterize their regulatory activity. We develop computational models to identify complex patterns and infer how genomic and epigenomic variation influences gene regulation.
+    The human genome is far more dynamic than a single reference genome suggests. Across primate evolution, structural rearrangements and shifts in gene regulation shaped uniquely human brain functions, while large genomic segments continue to recombine and vary substantially across individuals today. Over a lifetime, epigenetic alterations (epimutations) also accumulate within individual cells, eroding cell identity and contributing to aging and disease.
+  </p>
+  <p>
+    At the Jeong Lab, we integrate long-read genome assemblies and pangenomes, single-cell and 3D multi-omics, and statistical and AI modeling to understand how genomic and epigenomic variation shapes cellular states, phenotypes, and disease vulnerability.
   </p>
   <div class="home-actions">
     <a class="home-action home-action-primary" href="{{ '/research/' | relative_url }}">Explore Our Research</a>
@@ -408,21 +535,65 @@ _styles: |
   </div>
 </section>
 
-<section class="recent-news home-wide" aria-labelledby="recent-news-title">
+<section class="home-pillars home-wide" aria-labelledby="home-pillars-title">
   <div class="home-section-header">
-    <h2 id="recent-news-title">Recent News</h2>
-    <a class="home-section-link" href="{{ '/news/' | relative_url }}">View all news →</a>
+    <h2 id="home-pillars-title">Research Directions</h2>
+    <a class="home-section-link" href="{{ '/research/' | relative_url }}">Detailed overview →</a>
   </div>
 
-  <ol class="home-news-list">
-    {% assign recent_news = site.news | sort: 'date' | reverse %}
-    {% for item in recent_news limit: 6 %}
-      <li class="home-news-item">
-        <time class="home-news-date" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%m/%d/%Y' }}</time>
-        <div class="home-news-copy">{{ item.content | remove: '<p>' | remove: '</p>' | strip }}</div>
-      </li>
-    {% endfor %}
-  </ol>
+  <div class="home-pillar-grid">
+    <a class="home-pillar-card" href="{{ '/research/#evolution' | relative_url }}">
+      <div class="home-pillar-index">01 / Evolution</div>
+      <h3>Primate and Human Evolution</h3>
+      <p>
+        Comparing high-quality primate genome assemblies and cell-type-resolved brain epigenomes to uncover human-specific genes, regulatory changes, and evolutionary links to neuropsychiatric disease risk.
+      </p>
+      <div class="home-pillar-tags">
+        <span class="home-pillar-tag">Comparative genomics</span>
+        <span class="home-pillar-tag">Brain epigenomics</span>
+        <span class="home-pillar-tag">Regulatory evolution</span>
+      </div>
+    </a>
+
+    <a class="home-pillar-card" href="{{ '/research/#diversity' | relative_url }}">
+      <div class="home-pillar-index">02 / Diversity</div>
+      <h3>Complex Genome Architecture and Human Diversity</h3>
+      <p>
+        Resolving segmental duplications, large structural variation, and newly emerging duplicated genes across population-scale pangenomes that were previously inaccessible to short-read sequencing.
+      </p>
+      <div class="home-pillar-tags">
+        <span class="home-pillar-tag">Long-read assembly</span>
+        <span class="home-pillar-tag">Pangenome</span>
+        <span class="home-pillar-tag">Structural variation</span>
+      </div>
+    </a>
+
+    <a class="home-pillar-card" href="{{ '/research/#aging' | relative_url }}">
+      <div class="home-pillar-index">03 / Aging &amp; Disease</div>
+      <h3>Cellular Aging and Disease</h3>
+      <p>
+        Integrating single-cell DNA methylation, 3D genome architecture, and multi-omics to investigate how accumulating epimutations erode cell identity, drive failed tissue repair in disease, and remodel during cellular rejuvenation.
+      </p>
+      <div class="home-pillar-tags">
+        <span class="home-pillar-tag">Single-cell multi-omics</span>
+        <span class="home-pillar-tag">Epigenetic aging</span>
+        <span class="home-pillar-tag">Tissue repair</span>
+      </div>
+    </a>
+
+    <a class="home-pillar-card" href="{{ '/research/#methods' | relative_url }}">
+      <div class="home-pillar-index">04 / Methods &amp; AI</div>
+      <h3>Computational Methods and AI</h3>
+      <p>
+        Developing algorithms for repetitive genome architectures, statistical models for single-cell and 3D epigenome integration, and machine learning and AI models linking sequence to cell-type regulation.
+      </p>
+      <div class="home-pillar-tags">
+        <span class="home-pillar-tag">Statistical modeling</span>
+        <span class="home-pillar-tag">Genomic AI</span>
+        <span class="home-pillar-tag">Bioinformatics tools</span>
+      </div>
+    </a>
+  </div>
 </section>
 
 <section class="featured-publications home-wide" aria-labelledby="featured-publications-title">
@@ -444,9 +615,9 @@ _styles: |
         >
       </div>
       <div class="featured-paper-body">
-        <div class="featured-paper-meta">Kidney Aging · 2026</div>
+        <div class="featured-paper-meta">2026</div>
         <h3>A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease</h3>
-        <p>Single-cell multi-omics maps cell-type-specific aging and disease-associated repair states across human and mouse kidneys.</p>
+        <p>Cross-species single-cell methylome and multi-omics maps reveal conserved epithelial aging trajectories and maladaptive repair states in kidney disease.</p>
         <div class="featured-paper-journal">Nature Aging</div>
       </div>
     </a>
@@ -460,10 +631,26 @@ _styles: |
         >
       </div>
       <div class="featured-paper-body">
-        <div class="featured-paper-meta">Genome Structure · 2025</div>
+        <div class="featured-paper-meta">2025</div>
         <h3>Structural polymorphism and diversity of human segmental duplications</h3>
-        <p>Long-read assemblies reveal population-scale diversity in duplicated regions that have been difficult to resolve at sequence level.</p>
+        <p>Analysis of 170 haplotype-resolved human genome assemblies uncovers 47.4 Mb of previously uncharacterized duplicated sequence and over 200 candidate duplicated genes.</p>
         <div class="featured-paper-journal">Nature Genetics</div>
+      </div>
+    </a>
+
+    <a class="featured-paper" href="https://doi.org/10.1038/s41586-025-08816-3">
+      <div class="featured-paper-figure">
+        <img
+          src="{{ '/assets/img/home/publications/yoo-2025-nature-fig1-card.png' | relative_url }}"
+          alt="Figure 1 chromosomal alignments across complete great ape genomes"
+          loading="lazy"
+        >
+      </div>
+      <div class="featured-paper-body">
+        <div class="featured-paper-meta">2025</div>
+        <h3>Complete sequencing of ape genomes</h3>
+        <p>Telomere-to-telomere, haplotype-resolved reference genomes across six ape species resolve structurally divergent loci and lineage-specific gene families.</p>
+        <div class="featured-paper-journal">Nature</div>
       </div>
     </a>
 
@@ -476,9 +663,9 @@ _styles: |
         >
       </div>
       <div class="featured-paper-body">
-        <div class="featured-paper-meta">Brain Evolution · 2021</div>
+        <div class="featured-paper-meta">2021</div>
         <h3>Evolution of DNA methylation in the human brain</h3>
-        <p>Cell type-resolved methylomes identify human-lineage regulatory changes and their relationship to neuropsychiatric disease risk.</p>
+        <p>Neuron- and glia-resolved primate methylomes identify human-specific CG and CH regulatory evolution enriched for schizophrenia genetic risk.</p>
         <div class="featured-paper-journal">Nature Communications</div>
       </div>
     </a>
@@ -492,26 +679,10 @@ _styles: |
         >
       </div>
       <div class="featured-paper-body">
-        <div class="featured-paper-meta">Epigenetic Aging · 2024</div>
+        <div class="featured-paper-meta">2025</div>
         <h3>Human brain aging is associated with dysregulation of cell type epigenetic identity</h3>
-        <p>Age-associated DNA methylation changes connect declining cell identity with brain aging and disease vulnerability.</p>
+        <p>Cell-type-resolved brain methylomes show how progressive erosion of epigenetic cell identity links aging to neurological vulnerability.</p>
         <div class="featured-paper-journal">GeroScience</div>
-      </div>
-    </a>
-
-    <a class="featured-paper" href="https://doi.org/10.1038/s41586-025-08816-3">
-      <div class="featured-paper-figure">
-        <img
-          src="{{ '/assets/img/home/publications/yoo-2025-nature-fig1-card.png' | relative_url }}"
-          alt="Figure 1 chromosomal alignments across complete great ape genomes"
-          loading="lazy"
-        >
-      </div>
-      <div class="featured-paper-body">
-        <div class="featured-paper-meta">Ape Genomes · 2025</div>
-        <h3>Complete sequencing of ape genomes</h3>
-        <p>Haplotype-resolved reference genomes expose previously inaccessible regions across six ape species.</p>
-        <div class="featured-paper-journal">Nature</div>
       </div>
     </a>
 
@@ -524,9 +695,9 @@ _styles: |
         >
       </div>
       <div class="featured-paper-body">
-        <div class="featured-paper-meta">Genome Evolution · 2022</div>
+        <div class="featured-paper-meta">2022</div>
         <h3>Dynamic molecular evolution of a supergene with suppressed recombination</h3>
-        <p>Population genomic and transcriptomic analyses reveal distinct evolutionary dynamics within a vertebrate supergene.</p>
+        <p>Population genomic and allele-specific expression analyses reveal degeneration and regulatory divergence across a chromosomal inversion supergene.</p>
         <div class="featured-paper-journal">eLife</div>
       </div>
     </a>
@@ -548,6 +719,33 @@ _styles: |
     </div>
 
   </div>
+</section>
+
+<section class="recent-news home-wide" aria-labelledby="recent-news-title">
+  <div class="home-section-header">
+    <h2 id="recent-news-title">Recent News</h2>
+    <a class="home-section-link" href="{{ '/news/' | relative_url }}">View all news →</a>
+  </div>
+
+  <ol class="home-news-list">
+    {% assign recent_news = site.news | sort: 'date' | reverse %}
+    {% for item in recent_news limit: 6 %}
+      <li class="home-news-item">
+        <time class="home-news-date" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%m/%d/%Y' }}</time>
+        <div class="home-news-copy">{{ item.content | remove: '<p>' | remove: '</p>' | strip }}</div>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="home-join-callout home-wide" aria-labelledby="home-join-callout-title">
+  <div>
+    <h2 id="home-join-callout-title">Join the Jeong Lab at GIST</h2>
+    <p>
+      We welcome prospective graduate students, postdocs, and undergraduates from both biology/medicine and computer science, statistics, or AI who want to tackle challenging questions in human genomics and aging.
+    </p>
+  </div>
+  <a class="home-action home-action-primary" href="{{ '/join/' | relative_url }}">View Open Positions</a>
 </section>
 
 <script>

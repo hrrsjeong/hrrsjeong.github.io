@@ -2,7 +2,7 @@
 layout: page
 permalink: /ko/join/undergraduate-research/
 title: 학부 연구생 모집
-description: GIST에서 유전체 데이터 분석과 계산생물학 연구를 경험할 학부 연구생을 모집합니다.
+description: GIST에서 계산유전체학, 후성유전체학, 유전체 AI 연구를 경험할 학부 연구생을 모집합니다.
 nav: false
 lang: ko
 translation_of: /join/undergraduate-research/
@@ -10,81 +10,72 @@ translation_of: /join/undergraduate-research/
 
 <article class="undergraduate-opportunity">
   <p class="undergraduate-opportunity-lead">
-    <strong>계산유전체 및 진화의학 연구실(Computational Genomics &amp; Evolutionary Medicine Lab, PI: 정현수)</strong>에서는 유전체 데이터 분석과 계산생물학 연구를 경험하고 싶은 학부연구생을 모집합니다.
+    <strong>계산유전체 및 진화의학 연구실(Computational Genomics &amp; Evolutionary Medicine Lab, PI: 정현수)</strong>에서 대규모 유전체 데이터 분석과 계산생물학 연구를 경험하고 싶은 학부 연구생을 모집합니다.
   </p>
 
   <p class="undergraduate-opportunity-intro">
-    우리 연구실은 다양한 종과 세포 유형에서 나타나는 유전체 구조와 후성유전체 조절을 연구하며, 이를 통해 인간 진화, 노화 및 신경계 질환을 이해하고자 합니다. 연구실은 실험실 기반의 wet-lab 연구를 수행하지 않는 <strong>100% dry lab</strong>입니다. 대규모 유전체 및 multi-omics 데이터를 분석하고, 통계적 모델링과 머신러닝·AI 기반 접근법을 활용하여 복잡한 생물학적 패턴을 발견하는 연구를 진행합니다.
+    우리 연구실은 영장류 진화, 인류 집단 내 유전체 다양성, 그리고 세포 노화와 질환에 걸친 유전체 및 후성유전체의 변화를 연구합니다. Long-read pangenome, single-cell 및 3D multi-omics, 통계 및 AI 모델링을 결합해 핵심 생물학 문제를 정량적으로 규명합니다.
   </p>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-research-title">
-    <h2 id="undergraduate-research-title">참여할 수 있는 연구</h2>
-    <p>학부연구생은 관심 분야와 경험에 따라 다음과 같은 연구에 참여할 수 있습니다.</p>
+    <h2 id="undergraduate-research-title">참여할 수 있는 연구 주제</h2>
+    <p>학부 연구생은 관심 분야와 배경에 따라 다음과 같은 주제에 참여할 수 있습니다.</p>
     <ul>
-      <li>인간 및 영장류 비교유전체학</li>
-      <li>복잡한 유전체 구조와 구조변이 분석</li>
-      <li>후성유전체와 유전자 조절 연구</li>
-      <li>노화 및 질환 관련 단일세포·multi-omics 데이터 분석</li>
-      <li>머신러닝과 AI를 활용한 유전체 데이터의 패턴 탐색 및 예측</li>
-      <li>생물정보학 분석 도구와 재현 가능한 분석 workflow 개발</li>
+      <li>인간 및 비인간 영장류 비교유전체학과 뇌 유전자 조절 진화</li>
+      <li>Pangenome 기반 segmental duplication, 구조변이, 신규 중복 유전자 분석</li>
+      <li>세포 노화, 세포 정체성 변화, 조직 복구 실패 관련 single-cell multi-omics 분석</li>
+      <li>머신러닝과 AI를 활용한 유전체 서열 및 유전자 조절 모델링</li>
+      <li>재현 가능한 생물정보학 분석 workflow 및 시각화 도구 개발</li>
     </ul>
     <p>
-      프로그래밍이나 생물정보학 경험이 많지 않은 학생은 문헌을 읽고 데이터를 이해하는 과정부터 시작합니다. 이후 Linux 환경, Python 또는 R을 이용한 데이터 분석, 시각화 및 연구 결과 해석을 단계적으로 배우게 됩니다.
+      프로그래밍이나 생물정보학 경험이 아직 많지 않은 학생은 주요 논문을 함께 읽고 데이터를 이해하는 과정부터 시작하며, Linux 환경과 Python 또는 R 기반의 데이터 분석 및 시각화를 단계적으로 배웁니다.
     </p>
     <p class="undergraduate-opportunity-note">
-      프로그래밍, 통계 분석 또는 머신러닝 경험이 충분한 학생은 현재 진행 중인 연구 프로젝트의 데이터 분석과 방법론 개발에 직접 참여할 수 있습니다. 프로젝트에 실질적으로 기여한 경우 연구 결과 발표와 논문 작성 과정에 참여하고, 기여도에 따라 논문의 공동저자가 될 수 있습니다.
+      프로그래밍, 통계학 또는 머신러닝 경험이 충분한 학생은 진행 중인 연구 프로젝트의 데이터 분석과 방법론 개발에 직접 참여할 수 있으며, 실질적인 기여도에 따라 학회 발표와 논문 공동저자로 참여할 기회가 열려 있습니다.
     </p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-applicants-title">
     <h2 id="undergraduate-applicants-title">이런 학생을 환영합니다</h2>
-    <p>다음과 같은 학생을 환영합니다.</p>
+    <p>생명과학 계열뿐 아니라 컴퓨터과학, AI, 통계학, 수리과학 등 다양한 전공 배경의 학부생을 환영합니다.</p>
     <ul>
-      <li>유전체학, 진화, 노화 또는 질환 생물학에 관심이 있는 학생</li>
-      <li>실제 대규모 생물학 데이터를 분석해보고 싶은 학생</li>
-      <li>생명과학과 컴퓨터과학, 통계학 또는 AI의 접점에 관심이 있는 학생</li>
-      <li>새로운 분석 방법이나 생물정보학 도구를 개발해보고 싶은 학생</li>
-      <li>일정 기간 꾸준히 연구에 참여할 수 있는 학생</li>
+      <li>인간 진화, 유전적 다양성, 세포 노화 또는 질환 생물학에 호기심이 있는 학생</li>
+      <li>실제 대규모 시퀀싱 및 single-cell 데이터를 직접 다루어 보고 싶은 학생</li>
+      <li>생명과학적 질문과 정량적, 계산적 사고를 연결하는 데 흥미가 있는 학생</li>
+      <li>학기 중 또는 방학 동안 일정 기간 꾸준히 참여할 수 있는 학생</li>
     </ul>
-    <p>
-      프로그래밍 경험이 있으면 도움이 되지만 필수는 아닙니다. 현재의 기술 수준뿐 아니라 새로운 내용을 배우려는 의지, 꾸준함, 그리고 데이터와 생물학적 질문을 함께 고민하는 태도를 중요하게 생각합니다.
-    </p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-training-title">
     <h2 id="undergraduate-training-title">연구 과정에서 배우는 것</h2>
-    <p>학부연구생은 연구 과정에서 다음을 배울 수 있습니다.</p>
     <ul>
-      <li>Linux 기반 계산 연구 환경</li>
-      <li>Python 또는 R을 이용한 데이터 분석</li>
-      <li>유전체 및 후성유전체 데이터 처리와 해석</li>
-      <li>통계적 모델링과 머신러닝의 생물학적 활용</li>
-      <li>재현 가능한 분석 workflow 구성</li>
-      <li>논문 읽기, 연구 결과 시각화 및 발표</li>
-      <li>연구 결과 정리와 논문 작성 과정</li>
+      <li>Linux 및 고성능 컴퓨팅(HPC) 기반 연구 환경</li>
+      <li>Python 또는 R을 이용한 대규모 오믹스 데이터 처리와 시각화</li>
+      <li>Long-read 유전체 및 single-cell 후성유전체 데이터의 생물학적 해석</li>
+      <li>통계 모델링과 머신러닝의 유전체학 적용</li>
+      <li>최신 논문 분석, 연구 결과 정리 및 발표</li>
     </ul>
-    <p>정기적인 미팅을 통해 연구 진행 상황과 향후 진로에 대해서도 함께 논의합니다.</p>
   </section>
 
   <section class="undergraduate-opportunity-section" aria-labelledby="undergraduate-apply-title">
-    <h2 id="undergraduate-apply-title">지원 방법</h2>
+    <h2 id="undergraduate-apply-title">지원 및 문의 방법</h2>
     <p>관심 있는 학생은 아래 내용을 포함하여 이메일을 보내주세요.</p>
     <ul>
-      <li>간단한 자기소개</li>
+      <li>간단한 자기소개 (소속 전공 및 학년 포함)</li>
       <li>관심 있는 연구 주제</li>
-      <li>관련 수업, 프로그래밍 또는 연구 경험</li>
-      <li>참여 가능한 시기와 예상 기간</li>
+      <li>관련 수강 과목, 프로그래밍 또는 연구 경험</li>
+      <li>참여 희망 시기와 예상 기간</li>
       <li>성적표</li>
     </ul>
     <p>
-      프로그래밍 경험이 있다면 GitHub, 분석 코드 또는 이전 프로젝트 자료를 선택적으로 첨부할 수 있습니다. 모집은 상시로 진행하며, 지원 내용을 검토한 뒤 개별 면담을 통해 가능한 프로젝트와 활동 방식을 논의합니다.
+      선택 사항으로 GitHub 주소나 이전 수업 및 프로젝트 코드를 함께 보내주셔도 좋습니다. 상시 모집하며, 개별 면담을 통해 참여 가능한 프로젝트와 활동 방식을 안내합니다.
     </p>
     <a
       class="undergraduate-opportunity-cta"
       href="mailto:jeonglab.gist@gmail.com?subject=%5BUndergraduate%20Research%5D%20Name%20%2F%20Department%20%2F%20Year"
     >
       <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-      학부 연구생 지원·문의하기
+      학부 연구생 지원 및 문의하기
     </a>
   </section>
 

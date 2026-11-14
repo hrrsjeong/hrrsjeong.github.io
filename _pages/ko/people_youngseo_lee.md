@@ -1,7 +1,7 @@
 ---
 layout: member
 permalink: /ko/people/youngseo-lee/
-title: Youngseo Lee
+title: 이영서
 description: Former Undergraduate Researcher
 nav: false
 lang: ko

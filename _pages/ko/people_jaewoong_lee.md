@@ -1,7 +1,7 @@
 ---
 layout: member
 permalink: /ko/people/jaewoong-lee/
-title: Jaewoong Lee
+title: 이재웅
 description: Postdoctoral Researcher
 nav: false
 lang: ko

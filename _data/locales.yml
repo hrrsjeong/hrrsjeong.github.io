@@ -39,7 +39,7 @@ ko:
     Publications: 논문
     Join: 모집 안내
   navigation: 주요 메뉴
-  toggle_navigation: 메뉴 열기·닫기
+  toggle_navigation: 메뉴 열기 및 닫기
   current: 현재 페이지
   language: 언어 선택
   theme: 화면 테마 변경
@@ -51,7 +51,7 @@ ko:
   news_empty: 아직 등록된 소식이 없습니다.
   date_format: "%Y.%m.%d"
   long_date_format: "%Y년 %m월 %d일"
-  publication_search: 제목·저자·연도로 검색
+  publication_search: 제목, 저자, 연도로 검색
   publication_search_label: 논문 제목, 저자 또는 연도로 검색
   references: 참고문헌
   published: 게시일

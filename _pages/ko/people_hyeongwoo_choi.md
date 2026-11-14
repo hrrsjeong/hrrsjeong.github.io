@@ -1,7 +1,7 @@
 ---
 layout: member
 permalink: /ko/people/hyeongwoo-choi/
-title: Hyeongwoo Choi
+title: 최형우
 description: Postdoctoral Researcher
 nav: false
 lang: ko

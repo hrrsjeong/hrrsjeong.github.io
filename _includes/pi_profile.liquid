@@ -2,7 +2,7 @@
   <section class="pi-profile-header" aria-label="Profile overview">
     <img class="pi-profile-photo" src="{{ '/assets/img/IMG_9534.jpg' | relative_url }}" alt="Hyeonsoo Harris Jeong">
     <div>
-      <h1 class="pi-profile-name">Hyeonsoo "Harris" Jeong</h1>
+      <h1 class="pi-profile-name">{% if language == 'ko' %}정현수{% else %}Hyeonsoo "Harris" Jeong{% endif %}</h1>
       <p class="pi-profile-role">Principal Investigator</p>
       <p class="pi-profile-position">
         Assistant Professor<br>
@@ -34,14 +34,14 @@
         <div class="pi-entry-period">2023–2026</div>
         <div>
           <h3>Computational Scientist</h3>
-          <p>Altos Labs, San Diego Institute of Science · Kun Zhang Group</p>
+          <p>Altos Labs, San Diego Institute of Science (Kun Zhang Group)</p>
         </div>
       </li>
       <li class="pi-entry">
         <div class="pi-entry-period">2022–2023</div>
         <div>
           <h3>Postdoctoral Researcher</h3>
-          <p>Howard Hughes Medical Institute and Department of Genome Sciences, University of Washington · Evan Eichler Lab</p>
+          <p>Howard Hughes Medical Institute and Department of Genome Sciences, University of Washington (Evan Eichler Lab)</p>
         </div>
       </li>
     </ol>

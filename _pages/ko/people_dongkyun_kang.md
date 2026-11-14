@@ -1,7 +1,7 @@
 ---
 layout: member
 permalink: /ko/people/dongkyun-kang/
-title: Dongkyun Kang
+title: 강동균
 description: Former Undergraduate Researcher
 nav: false
 lang: ko
