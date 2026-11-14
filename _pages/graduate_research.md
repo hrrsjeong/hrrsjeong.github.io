@@ -124,11 +124,11 @@ _styles: |
 
 <article class="graduate-opportunity">
   <p class="graduate-opportunity-lead">
-    The <strong>Computational Genomics &amp; Evolutionary Medicine Lab (PI: Hyeonsoo Jeong)</strong> is recruiting students for the integrated M.S.-Ph.D. and Ph.D. programs in the Department of Life Sciences at GIST.
+    The <strong>Computational Genomics &amp; Evolutionary Medicine Lab (PI: Hyeonsoo Jeong)</strong> is recruiting integrated M.S.-Ph.D. and Ph.D. students through the <strong>Department of Life Sciences</strong> or the <strong>Department of AX (College of AI)</strong> at GIST.
   </p>
 
   <p class="graduate-opportunity-intro">
-    We investigate how genomes and epigenomes evolve across primates, vary across human populations, and remodel within individual cells during aging and disease. Combining long-read genome assemblies and pangenomes, single-cell and 3D multi-omics, and statistical and AI modeling, we tackle genomic regions and cellular states that were previously inaccessible to conventional approaches.
+    We study how genomes and epigenomes evolve across primates, vary across human populations, and change within individual cells during aging and disease using long-read pangenomes, single-cell and 3D multi-omics, and statistical and AI modeling.
   </p>
 
   <section class="graduate-opportunity-section" aria-labelledby="graduate-research-directions-title">
@@ -203,29 +203,18 @@ _styles: |
 
   <section class="graduate-opportunity-section" aria-labelledby="graduate-training-title">
     <h2 id="graduate-training-title">Training and mentoring</h2>
-    <p>Graduate students receive close mentoring and develop strong capabilities in:</p>
-    <ul>
-      <li>Reproducible large-scale analysis in Linux and high-performance computing (HPC) environments</li>
-      <li>Quantitative genomics and data science in Python and R</li>
-      <li>Long-read genome assembly, pangenome, and structural variation analysis</li>
-      <li>Single-cell and 3D multi-omics integration</li>
-      <li>Statistical modeling, machine learning, and genomic AI development</li>
-      <li>Scientific writing, international conference presentations, and open-source tool development</li>
-    </ul>
     <p>
-      Regular one-on-one and group meetings guide study design, biological interpretation, and manuscript preparation, supporting careers in academia, research institutes, and biotech/AI industry.
+      Students learn the computational and quantitative skills needed for their thesis projects as they go, including Linux/HPC workflows, data analysis in Python and R, long-read and single-cell data processing, and statistical or machine learning modeling. Through regular individual and lab meetings, we work together on formulating questions, interpreting data, and writing papers.
     </p>
   </section>
 
   <section class="graduate-opportunity-section" aria-labelledby="graduate-applicants-title">
     <h2 id="graduate-applicants-title">Who should apply?</h2>
-    <p>We welcome students from two complementary backgrounds:</p>
-    <ul>
-      <li><strong>Life sciences, biotechnology, and biomedical majors</strong> who want to build rigorous computational and modeling skills to answer fundamental questions in evolution, diversity, aging, and disease</li>
-      <li><strong>Computer science, statistics, mathematics, AI, and engineering majors</strong> who want to design new algorithms, statistical models, and AI frameworks for challenging genomic and single-cell datasets</li>
-    </ul>
     <p>
-      Prior programming or bioinformatics experience is helpful for biology majors, and prior biology coursework is helpful for quantitative majors, though neither is strictly required at entry. What matters most is intellectual curiosity and strong motivation to grow across both biology and computation.
+      Applicants from all undergraduate majors are welcome, including life sciences and biomedical fields as well as computer science, AI, statistics, mathematics, and engineering. Depending on background and interests, prospective students can apply through either the <strong>Department of Life Sciences</strong> or the <strong>Department of AX (College of AI)</strong> at GIST.
+    </p>
+    <p>
+      Prior coding experience (for biology majors) or biology coursework (for quantitative majors) is helpful, though neither is required at entry.
     </p>
   </section>
 
@@ -233,8 +222,8 @@ _styles: |
     <h2 id="graduate-positions-title">Available positions</h2>
     <ul class="graduate-opportunity-positions">
       <li><strong>Positions</strong><span>3 M.S.-Ph.D. integrated or Ph.D. students</span></li>
-      <li><strong>Department</strong><span>Department of Life Sciences, GIST</span></li>
-      <li><strong>Areas</strong><span>Computational genomics, evolutionary genomics, pangenomes, single-cell epigenomics, aging, and genomic AI</span></li>
+      <li><strong>Departments</strong><span>Department of Life Sciences or Department of AX (College of AI), GIST</span></li>
+      <li><strong>Areas</strong><span>Computational genomics, evolutionary genomics, pangenomes, single-cell epigenomics, aging, and AI methods</span></li>
     </ul>
   </section>
 

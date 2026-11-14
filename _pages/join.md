@@ -86,77 +86,22 @@ _styles: |
   }
   .why-join-section {
     border-top: 1px solid var(--global-divider-color);
-    padding-top: 1.6rem;
-    margin: 0 0 2.2rem;
+    padding-top: 1.5rem;
+    margin: 0 0 2rem;
   }
   .why-join-section > h2 {
-    font-size: clamp(1.35rem, 2.6vw, 1.7rem);
-    font-weight: 630;
+    font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+    font-weight: 620;
     letter-spacing: -0.02em;
-    margin: 0 0 0.65rem;
+    margin: 0 0 0.75rem;
   }
-  .why-join-lead {
-    color: var(--global-text-color-light);
+  .why-join-section p {
+    color: var(--global-text-color);
     font-size: 0.96rem;
-    line-height: 1.68;
-    margin: 0 0 1.2rem;
+    line-height: 1.7;
+    margin: 0 0 0.75rem;
   }
-  .join-tracks {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-  .join-track-card {
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.28rem;
-    padding: 1.15rem 1.25rem;
-    background: var(--global-card-bg-color);
-  }
-  .join-track-label {
-    color: var(--join-accent);
-    font-size: 0.74rem;
-    font-weight: 740;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    margin: 0 0 0.38rem;
-  }
-  .join-track-card h3 {
-    font-size: 1.04rem;
-    font-weight: 650;
-    line-height: 1.35;
-    margin: 0 0 0.5rem;
-  }
-  .join-track-card p {
-    color: var(--global-text-color-light);
-    font-size: 0.9rem;
-    line-height: 1.62;
-    margin: 0;
-  }
-  .training-panel {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1rem;
-    align-items: start;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.28rem;
-    padding: 1.15rem 1.25rem;
-    background: var(--global-card-bg-color);
-  }
-  .training-panel i {
-    color: var(--join-accent);
-    font-size: 1.2rem;
-    margin-top: 0.15rem;
-  }
-  .training-panel h3 {
-    font-size: 1.04rem;
-    font-weight: 650;
-    margin: 0 0 0.4rem;
-  }
-  .training-panel p {
-    color: var(--global-text-color-light);
-    font-size: 0.9rem;
-    line-height: 1.62;
+  .why-join-section p:last-child {
     margin-bottom: 0;
   }
   .availability-box {
@@ -213,74 +158,45 @@ _styles: |
     color: var(--join-accent);
     font-weight: 650;
   }
-  @media (max-width: 720px) {
-    .join-tracks {
-      grid-template-columns: 1fr;
-    }
-  }
 ---
 
 <div class="join-hero">
   <p class="mb-0">
-    The Jeong Lab at GIST investigates how genomes and epigenomes evolve across primates, vary across human populations, and change within individual cells during aging and disease. We are recruiting curious, motivated researchers who want to combine deep biological questions with rigorous computational and AI methods.
+    The Jeong Lab at GIST studies primate and human genome evolution, structural diversity across human populations, and cellular aging and disease. We welcome researchers and students from both biological and computational backgrounds.
   </p>
 </div>
 
 <div class="join-grid">
   <a class="join-card" href="#postdocs">
     <div class="role">Postdocs</div>
-    <div class="tagline">Lead independent studies in comparative genomics, pangenomes, single-cell epigenomics, or genomic AI.</div>
+    <div class="tagline">Independent research in comparative genomics, pangenomes, single-cell epigenomics, or computational methods.</div>
     <div class="availability-pill"><i class="fa-solid fa-user-plus"></i><span class="count">1</span> opening</div>
   </a>
   <a class="join-card" href="{{ '/join/graduate-research/' | relative_url }}">
     <div class="role">Graduate Students</div>
-    <div class="tagline">Join through the Department of Life Sciences at GIST and lead a doctoral project in computational genomics.</div>
+    <div class="tagline">Apply through the Department of Life Sciences or the Department of AX (College of AI) at GIST.</div>
     <div class="availability-pill"><i class="fa-solid fa-user-graduate"></i><span class="count">3</span> M.S.-Ph.D. or Ph.D.</div>
   </a>
   <a class="join-card" href="#bioinformatics-specialist">
     <div class="role">Bioinformatics Specialist</div>
-    <div class="tagline">Develop scalable workflows for long-read assemblies, pangenomes, and single-cell multi-omics datasets.</div>
+    <div class="tagline">Build reproducible workflows for long-read assemblies, pangenomes, and single-cell multi-omics datasets.</div>
     <div class="availability-pill"><i class="fa-solid fa-laptop-code"></i><span class="count">1</span> opening</div>
   </a>
   <a class="join-card" href="{{ '/join/undergraduate-research/' | relative_url }}">
     <div class="role">Undergraduates</div>
-    <div class="tagline">Gain hands-on experience in large-scale genomic data analysis and quantitative biology.</div>
+    <div class="tagline">Hands-on research experience in genomic and single-cell data analysis.</div>
     <div class="availability-pill"><i class="fa-solid fa-seedling"></i>Rolling basis</div>
   </a>
 </div>
 
 <section class="why-join-section" aria-labelledby="why-join-title">
-  <h2 id="why-join-title">Training Across Biology and Computation</h2>
-  <p class="why-join-lead">
-    Modern genome science requires researchers who understand both complex biology and quantitative modeling. We welcome members from two complementary backgrounds and tailor mentorship to each person's strengths and career goals.
+  <h2 id="why-join-title">Background and Training</h2>
+  <p>
+    Lab members join from life sciences and biomedical fields as well as computer science, AI, statistics, mathematics, and engineering. Prospective graduate students can enter through either the <strong>Department of Life Sciences</strong> or the <strong>Department of AX (College of AI)</strong> at GIST.
   </p>
-
-  <div class="join-tracks">
-    <div class="join-track-card">
-      <p class="join-track-label">Life Sciences &amp; Biomedicine</p>
-      <h3>From Biological Questions to Quantitative Mastery</h3>
-      <p>
-        Students from biology, biotechnology, or biomedical sciences start from core questions in brain evolution, human genetic diversity, and cellular aging while receiving structured training in Linux/HPC, Python/R, pangenome analysis, single-cell multi-omics, and statistical modeling.
-      </p>
-    </div>
-    <div class="join-track-card">
-      <p class="join-track-label">CS, Statistics, Math &amp; AI</p>
-      <h3>Statistical Modeling and AI for Complex Genomes</h3>
-      <p>
-        Researchers with quantitative backgrounds go beyond running standard bioinformatics pipelines to develop analytical methods for structurally complex genome regions, statistical models for single-cell and 3D epigenomes, and machine learning and AI models for multi-omic integration, aging, and disease.
-      </p>
-    </div>
-  </div>
-
-  <div class="training-panel">
-    <i class="fa-solid fa-compass"></i>
-    <div>
-      <h3>Mentorship and Research Environment</h3>
-      <p>
-        Lab members work directly with large-scale long-read pangenome and single-cell multi-omics datasets alongside domestic and international collaborators. From formulating questions and designing computational approaches to biological interpretation and manuscript writing, trainees work closely with the PI and postdoctoral researchers to lead first-author publications and prepare for careers in academia, research institutes, or the biotech and AI industry.
-      </p>
-    </div>
-  </div>
+  <p>
+    Prior experience in both biology and programming is not expected at the start. Depending on each member's background, we build practical skills in Linux/HPC environments, data analysis in Python and R, long-read and single-cell data processing, and statistical or machine learning modeling through day-to-day project work and regular discussions.
+  </p>
 </section>
 
 <div id="postdocs" class="join-section">
@@ -319,7 +235,7 @@ _styles: |
     </div>
   </div>
   <p>
-    Graduate students join through the Department of Life Sciences at GIST (applicants from all undergraduate majors, including biology, computer science, statistics, mathematics, and engineering, are eligible). Projects span primate and human evolution, pangenomes and complex structural variation, single-cell epigenetic aging and disease, and machine learning/AI for genomics.
+    Graduate students can enter through either the Department of Life Sciences or the Department of AX (College of AI) at GIST, regardless of undergraduate major. Thesis projects span primate and human genome evolution, pangenomes and complex structural variation, single-cell epigenomics of aging and disease, and computational/AI methods for genomics.
   </p>
   <div>
     <span class="join-badge">genome evolution &amp; diversity</span>

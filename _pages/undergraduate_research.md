@@ -99,7 +99,7 @@ _styles: |
       <li>Comparative genomics and brain epigenome evolution across humans and primates</li>
       <li>Population-scale pangenomes, segmental duplications, and structural variation</li>
       <li>Single-cell and 3D epigenomic analysis of cellular aging, cell identity, and tissue repair</li>
-      <li>Machine learning and AI models linking genomic sequence to gene regulation</li>
+      <li>Statistical modeling and machine learning for multi-omic data integration</li>
       <li>Development of reproducible bioinformatics workflows and visualization tools</li>
     </ul>
     <p>

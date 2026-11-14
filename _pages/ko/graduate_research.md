@@ -2,7 +2,7 @@
 layout: page
 permalink: /ko/join/graduate-research/
 title: 대학원생 모집
-description: GIST 생명과학과에서 계산유전체학과 진화의학을 연구할 석박사통합과정 및 박사과정 학생을 모집합니다.
+description: GIST 생명과학과 또는 AI대학 AX학과를 통해 입학할 석박사통합과정 및 박사과정 대학원생을 모집합니다.
 nav: false
 lang: ko
 translation_of: /join/graduate-research/
@@ -10,11 +10,11 @@ translation_of: /join/graduate-research/
 
 <article class="graduate-opportunity">
   <p class="graduate-opportunity-lead">
-    <strong>계산유전체 및 진화의학 연구실(Computational Genomics &amp; Evolutionary Medicine Lab, PI: 정현수)</strong>에서 GIST 생명과학과를 통해 진학할 석박사통합과정 및 박사과정 대학원생을 모집합니다.
+    <strong>계산유전체 및 진화의학 연구실(Computational Genomics &amp; Evolutionary Medicine Lab, PI: 정현수)</strong>에서 GIST <strong>생명과학과(Department of Life Sciences)</strong> 또는 <strong>AI대학 AX학과(Department of AX)</strong>를 통해 입학할 석박사통합과정 및 박사과정 대학원생을 모집합니다.
   </p>
 
   <p class="graduate-opportunity-intro">
-    우리 연구실은 영장류 진화, 인류 집단 내 다양성, 그리고 세포 노화와 질환에 걸친 유전체와 후성유전체의 변화를 연구합니다. Long-read genome assembly와 pangenome, single-cell 및 3D multi-omics, 그리고 통계와 AI 모델링을 결합하여 기존 기술로 접근하기 어려웠던 유전체 영역과 세포 상태를 정밀하게 분석합니다.
+    우리 연구실은 long-read pangenome, single-cell 및 3D multi-omics, 통계 및 AI 모델링을 활용해 영장류 유전체 진화, 집단 내 구조변이와 다양성, 세포 노화와 질환을 연구합니다.
   </p>
 
   <section class="graduate-opportunity-section" aria-labelledby="graduate-research-directions-title">
@@ -88,30 +88,19 @@ translation_of: /join/graduate-research/
   </section>
 
   <section class="graduate-opportunity-section" aria-labelledby="graduate-training-title">
-    <h2 id="graduate-training-title">연구 훈련과 지도</h2>
-    <p>대학원생은 학위 과정에서 다음과 같은 핵심 역량을 기르게 됩니다.</p>
-    <ul>
-      <li>Linux 및 고성능 컴퓨팅(HPC) 환경에서의 대규모 재현 가능 분석</li>
-      <li>Python 및 R 기반의 정량적 유전체 데이터 분석</li>
-      <li>Long-read genome assembly, pangenome, 구조변이 정밀 분석</li>
-      <li>Single-cell 및 3D multi-omics 데이터 통합</li>
-      <li>유전체 연구를 위한 통계 모델링, 머신러닝, AI 모델 개발</li>
-      <li>국제 학술지 논문 작성, 학회 발표, 오픈소스 분석 도구 공개</li>
-    </ul>
+    <h2 id="graduate-training-title">연구 환경과 지도</h2>
     <p>
-      정기적인 1:1 미팅과 랩 미팅을 통해 연구 질문 설정부터 분석 설계, 생물학적 해석, 논문 작성까지 밀착 지도하며, 학계와 연구소 및 바이오/AI 산업계 등 각자의 진로 목표에 맞춘 성장을 지원합니다.
+      학위 연구를 진행하면서 연구 주제에 필요한 Linux 서버 환경, Python/R 데이터 분석, long-read 및 single-cell 오믹스 데이터 처리, 통계 및 머신러닝 분석을 차근차근 익히게 됩니다. 정기적인 개별 미팅과 랩 미팅을 통해 연구 주제를 함께 구체화하고 데이터 해석과 논문 작성을 진행합니다.
     </p>
   </section>
 
   <section class="graduate-opportunity-section" aria-labelledby="graduate-applicants-title">
-    <h2 id="graduate-applicants-title">이런 지원자를 환영합니다</h2>
-    <p>서로 다른 두 배경의 지원자를 모두 환영합니다.</p>
-    <ul>
-      <li><strong>생명과학, 생명공학, 의생명 계열 전공자:</strong> 진화, 유전적 다양성, 노화, 질환이라는 생물학적 질문을 직접 대규모 데이터와 코딩, 통계 모델링으로 풀어보고 싶은 학생</li>
-      <li><strong>컴퓨터과학, 통계학, 수리과학, AI, 공학 계열 전공자:</strong> 복잡한 유전체 구조와 단일세포 후성유전체 데이터를 다루는 새로운 알고리즘, 확률 모델, 유전체 AI 모델을 설계하고 실제 인간 생물학 문제에 적용하고 싶은 학생</li>
-    </ul>
+    <h2 id="graduate-applicants-title">지원 안내</h2>
     <p>
-      생명과학 전공자에게 사전 프로그래밍 경험이 있거나 전산/수리 전공자에게 생물학 수강 경험이 있으면 도움이 되지만 입학 시점의 필수 조건은 아닙니다. 양쪽 분야를 함께 깊이 있게 익히려는 호기심과 주도성을 가장 중요하게 봅니다.
+      학부 전공에 제한이 없으며 생명과학 및 의생명 계열뿐 아니라 컴퓨터과학, AI, 통계학, 수학, 공학 계열 학생 모두 지원할 수 있습니다. 본인의 배경과 관심사에 따라 GIST <strong>생명과학과(Department of Life Sciences)</strong> 또는 <strong>AI대학 AX학과(Department of AX)</strong> 중 적합한 학과를 선택해 지원할 수 있습니다.
+    </p>
+    <p>
+      사전 코딩 경험이나 생물학 수강 이력이 있으면 도움이 되지만 입학 시점의 필수 조건은 아닙니다.
     </p>
   </section>
 
@@ -119,8 +108,8 @@ translation_of: /join/graduate-research/
     <h2 id="graduate-positions-title">모집 개요</h2>
     <ul class="graduate-opportunity-positions">
       <li><strong>모집 인원</strong><span>석박사통합과정 또는 박사과정 3명</span></li>
-      <li><strong>소속 학과</strong><span>GIST 생명과학과 (학부 전공 무관 지원 가능)</span></li>
-      <li><strong>연구 분야</strong><span>계산유전체학, 진화유전체학, pangenome, 단일세포 후성유전체학, 세포 노화, 유전체 AI</span></li>
+      <li><strong>입학 학과</strong><span>GIST 생명과학과 또는 AI대학 AX학과 (학부 전공 무관)</span></li>
+      <li><strong>연구 분야</strong><span>계산유전체학, 진화유전체학, pangenome, 단일세포 후성유전체학, 세포 노화, 계산 및 AI 방법론</span></li>
     </ul>
   </section>
 

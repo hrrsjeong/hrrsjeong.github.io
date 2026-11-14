@@ -24,7 +24,7 @@ translation_of: /join/undergraduate-research/
       <li>인간 및 비인간 영장류 비교유전체학과 뇌 유전자 조절 진화</li>
       <li>Pangenome 기반 segmental duplication, 구조변이, 신규 중복 유전자 분석</li>
       <li>세포 노화, 세포 정체성 변화, 조직 복구 실패 관련 single-cell multi-omics 분석</li>
-      <li>머신러닝과 AI를 활용한 유전체 서열 및 유전자 조절 모델링</li>
+      <li>다중 오믹스 데이터 통합을 위한 통계 모델링 및 머신러닝 분석</li>
       <li>재현 가능한 생물정보학 분석 workflow 및 시각화 도구 개발</li>
     </ul>
     <p>
