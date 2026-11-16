@@ -3,9 +3,10 @@
     <img src="{{ '/assets/img/IMG_9534.jpg' | relative_url }}" alt="Hyeonsoo Harris Jeong">
     <div class="principal-copy">
       <p class="principal-label">Principal Investigator</p>
-      <h2 class="principal-name" id="principal-investigator-title">{% if language == 'ko' %}정현수{% else %}Hyeonsoo “Harris” Jeong{% endif %}</h2>
+      <h2 class="principal-name" id="principal-investigator-title">
+        <a href="{{ '/people/hyeonsoo-jeong/' | prepend: language_prefix | relative_url }}">{% if language == 'ko' %}정현수{% else %}Hyeonsoo “Harris” Jeong{% endif %}</a>
+      </h2>
       <div class="principal-role">Assistant Professor, Department of Life Sciences, GIST</div>
-      <a class="principal-link" href="{{ '/people/hyeonsoo-jeong/' | prepend: language_prefix | relative_url }}">View profile →</a>
     </div>
   </div>
 </section>
@@ -28,7 +29,9 @@
         >
       </div>
       <div>
-        <h3 class="team-member-name">{% if language == 'ko' %}이재웅{% else %}Jaewoong Lee{% endif %}</h3>
+        <h3 class="team-member-name">
+          <a href="{{ '/people/jaewoong-lee/' | prepend: language_prefix | relative_url }}">{% if language == 'ko' %}이재웅{% else %}Jaewoong Lee{% endif %}</a>
+        </h3>
         <p class="team-member-role">Postdoctoral Researcher</p>
       </div>
     </article>
@@ -42,8 +45,42 @@
         >
       </div>
       <div>
-        <h3 class="team-member-name">{% if language == 'ko' %}최형우{% else %}Hyeongwoo Choi{% endif %}</h3>
+        <h3 class="team-member-name">
+          <a href="{{ '/people/hyeongwoo-choi/' | prepend: language_prefix | relative_url }}">{% if language == 'ko' %}최형우{% else %}Hyeongwoo Choi{% endif %}</a>
+        </h3>
         <p class="team-member-role">Postdoctoral Researcher</p>
+      </div>
+    </article>
+
+    <article class="team-member">
+      <div class="team-member-media">
+        <img
+          src="{{ '/assets/img/people/sooyeon-lim-portrait.jpg' | relative_url }}"
+          alt="Sooyeon Lim"
+          loading="lazy"
+        >
+      </div>
+      <div>
+        <h3 class="team-member-name">
+          <a href="{{ '/people/sooyeon-lim/' | prepend: language_prefix | relative_url }}">{% if language == 'ko' %}임수연{% else %}Sooyeon Lim{% endif %}</a>
+        </h3>
+        <p class="team-member-role">Undergraduate Researcher</p>
+      </div>
+    </article>
+
+    <article class="team-member">
+      <div class="team-member-media">
+        <img
+          src="{{ '/assets/img/people/juyoung-kim-portrait.jpg' | relative_url }}"
+          alt="Juyoung Kim"
+          loading="lazy"
+        >
+      </div>
+      <div>
+        <h3 class="team-member-name">
+          <a href="{{ '/people/juyoung-kim/' | prepend: language_prefix | relative_url }}">{% if language == 'ko' %}김주영{% else %}Juyoung Kim{% endif %}</a>
+        </h3>
+        <p class="team-member-role">Undergraduate Researcher</p>
       </div>
     </article>
 

@@ -87,6 +87,8 @@ for en, ko in pairs.items():
             ('Hyeonsoo "Harris" Jeong', '정현수'),
             ('Jaewoong Lee', '이재웅'),
             ('Hyeongwoo Choi', '최형우'),
+            ('Sooyeon Lim', '임수연'),
+            ('Juyoung Kim', '김주영'),
             ('Youngseo Lee', '이영서'),
             ('Dongkyun Kang', '강동균'),
             ('Dayoung Ryu', '류다영'),

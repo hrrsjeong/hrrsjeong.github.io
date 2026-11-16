@@ -42,25 +42,27 @@ _styles: |
     line-height: 1.1;
     margin: 0 0 0.55rem;
   }
+  .principal-name a,
+  .team-member-name a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+  .principal-name a:hover,
+  .principal-name a:focus,
+  .team-member-name a:hover,
+  .team-member-name a:focus {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.18em;
+  }
   .principal-role {
     color: var(--global-text-color-light);
     font-size: 0.96rem;
     font-weight: 600;
     line-height: 1.55;
     margin-bottom: 0;
-  }
-  .principal-link {
-    color: var(--global-theme-color);
-    display: inline-block;
-    font-size: 0.86rem;
-    font-weight: 650;
-    margin-top: 1rem;
-  }
-  .principal-link:hover,
-  .principal-link:focus,
-  .team-member-link:hover,
-  .team-member-link:focus {
-    color: var(--global-hover-color);
   }
   .team-section-header {
     align-items: baseline;
