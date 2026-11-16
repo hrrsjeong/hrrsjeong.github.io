@@ -1,10 +1,10 @@
 ---
 layout: member
-permalink: /people/rina-lee/
-title: Rina Lee
+permalink: /people/lina-yi/
+title: Lina Yi
 description: Ph.D. Student (Co-advised)
-initials: RL
-profile_image: /assets/img/people/rina-lee-portrait.jpg
+initials: LY
+profile_image: /assets/img/people/lina-yi-portrait.jpg
 affiliation_lines:
   - Co-advised with Jeong Lab, GIST
   - Department of Agricultural Biotechnology and Research Institute of Agriculture and Life Sciences
