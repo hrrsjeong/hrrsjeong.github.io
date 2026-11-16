@@ -110,10 +110,16 @@ layout: page
   </div>
   <div>
     <p class="member-profile-affiliation">
-      Jeong Lab<br>
-      {{ member_ui.affiliation_department -}}
-      <br>
-      {{ member_ui.affiliation_institution }}
+      {% if member.affiliation_lines %}
+        {% for line in member.affiliation_lines %}
+          {{ line }}{% unless forloop.last %}<br>{% endunless %}
+        {% endfor %}
+      {% else %}
+        Jeong Lab<br>
+        {{ member_ui.affiliation_department -}}
+        <br>
+        {{ member_ui.affiliation_institution }}
+      {% endif %}
     </p>
 
     {% if member.education or member.previous_positions %}

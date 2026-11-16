@@ -131,12 +131,11 @@ _styles: |
     line-height: 1.45;
     margin: 0;
   }
-  .team-member-link {
-    color: var(--global-theme-color);
-    display: inline-block;
+  .team-member-note {
+    color: var(--global-text-color-light);
     font-size: 0.82rem;
-    font-weight: 650;
-    margin-top: 0.85rem;
+    line-height: 1.45;
+    margin: 0.18rem 0 0;
   }
   .team-alumni-section {
     margin-top: clamp(2.3rem, 5.5vw, 3.8rem);
