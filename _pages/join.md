@@ -82,6 +82,7 @@ _styles: |
     color: var(--join-accent);
   }
   .availability-pill .count {
+    color: inherit;
     font-variant-numeric: tabular-nums;
   }
   .why-join-section {

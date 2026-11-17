@@ -19,6 +19,7 @@ _styles: |
   .home-hero {
     position: relative;
     isolation: isolate;
+    color-scheme: light;
     aspect-ratio: 3 / 1;
     overflow: hidden;
     border: 1px solid var(--global-divider-color);
@@ -78,6 +79,7 @@ _styles: |
   }
   .home-hero-title span {
     display: block;
+    color: #18171b;
     white-space: nowrap;
   }
   .home-intro {
