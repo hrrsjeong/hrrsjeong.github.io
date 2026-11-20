@@ -57,6 +57,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-single-cell-dna-methylome-study-is-now-published-in-nature-aging-congrats",
           title: 'Our single-cell DNA methylome study is now published in Nature Aging. Congrats!',
           description: "",
+          section: "News",},{id: "news-sooyeon-lim-and-juyoung-kim-join-the-jeong-lab-as-undergraduate-researchers-welcome-to-the-lab",
+          title: 'Sooyeon Lim and Juyoung Kim join the Jeong Lab as undergraduate researchers. Welcome...',
+          description: "",
+          section: "News",},{id: "news-our-lab-has-been-awarded-computing-allocation-through-the-kisti-national-supercomputer-no-6-r-amp-amp-d-innovation-program",
+          title: 'Our lab has been awarded computing allocation through the KISTI National Supercomputer No....',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
