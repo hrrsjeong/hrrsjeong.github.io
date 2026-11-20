@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Selected for KISTI National Supercomputer No. 6 R&D Innovation Program
+title: Selected for KISTI National Supercomputer No. 6 (Hangang) R&D Innovation Program
 date: 2026-11-20 09:00:00+0900
 inline: true
-content_ko: KISTI 국가슈퍼컴퓨터 6호기 혁신지원사업(R&D혁신 프로그램) 과제에 선정되었습니다.
+content_ko: "KISTI 국가슈퍼컴퓨터 6호기 '한강' 혁신지원사업(R&D혁신 프로그램)에 선정되어 NVIDIA GH200 GPU 및 대규모 CPU 연산 자원을 지원받습니다."
 related_posts: false
 ---
 
-Our lab has been awarded computing allocation through the KISTI National Supercomputer No. 6 R&D Innovation Program.
+Our lab was selected for the KISTI National Supercomputer No. 6 (Hangang) R&D Innovation Program, securing NVIDIA GH200 GPU and large-scale CPU computing resources.
