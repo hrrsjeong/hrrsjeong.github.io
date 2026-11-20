@@ -60,8 +60,8 @@ ninja.data = [{
           section: "News",},{id: "news-sooyeon-lim-and-juyoung-kim-join-the-jeong-lab-as-undergraduate-researchers-welcome-to-the-lab",
           title: 'Sooyeon Lim and Juyoung Kim join the Jeong Lab as undergraduate researchers. Welcome...',
           description: "",
-          section: "News",},{id: "news-our-lab-has-been-awarded-computing-allocation-through-the-kisti-national-supercomputer-no-6-r-amp-amp-d-innovation-program",
-          title: 'Our lab has been awarded computing allocation through the KISTI National Supercomputer No....',
+          section: "News",},{id: "news-our-lab-was-selected-for-the-kisti-national-supercomputer-no-6-hangang-r-amp-amp-d-innovation-program-securing-nvidia-gh200-gpu-and-large-scale-cpu-computing-resources",
+          title: 'Our lab was selected for the KISTI National Supercomputer No. 6 (Hangang) R&amp;amp;amp;D...',
           description: "",
           section: "News",},{
         id: 'social-github',
